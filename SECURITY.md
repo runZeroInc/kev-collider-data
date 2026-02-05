@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you find a security issue with KEV Collider, kev-collier-data, or other runZero projects or products, please send us an email at `security[at]runzero.com`.
+If you find a security issue with KEV Collider, kev-collider-data, or other runZero projects or products, please send us an email at `security[at]runzero.com`.
 
 You can find our policy and PGP key (if desired, we're fine with plain text reports) at:
   - https://www.runzero.com/.well-known/security.txt
