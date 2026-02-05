@@ -14,6 +14,8 @@ One exception is if you happen across a security issue with either this repo, or
 
 This repo is pretty straight forward. You'll find a whole pile of JSON files in `json/`, each of which describes a KEV-listed CVE with a bunch of decorations. To make sense of those JSON files, check it against the [current schema](schema-v1.0.0-dev.json). These JSON files are updated periodically as new information is released; new KEVs, new Nuclei templates, that sort of thing.
 
+There's also a [Jupyter Notebook](kev-explore.ipynb) that steps through most of the findings detailed in the paper, but with fresh data (so you won't get exactly the same ratios as documented, but time and exploitation marches on).
+
 ## Usage: KEV Collider
 
 The power of KEV Collider becomes pretty apparent when using the built in filtering and sorting. Because it's a static website, there is no notion of sessions or cookies or anything like that, which means all the filtering ends up as GET request parameters. For example, for "Straight-Shot RCE" is really just:
