@@ -12,7 +12,7 @@ One exception is if you happen across a security issue with either this repo, or
 
 ## Usage: This repo
 
-This repo is pretty straight forward. You'll find a whole pile of JSON files in `json/`, each of which describes a KEV-listed CVE with a bunch of decorations. To make sense of those JSON files, check it against the [current schema](schema-v1.0.0-dev.json). These JSON files are updated periodically as new information is released; new KEVs, new Nuclei templates, that sort of thing.
+This repo is pretty straight forward. You'll find a whole pile of JSON files in `json/`, each of which describes a KEV-listed CVE with a bunch of decorations. To make sense of those JSON files, check it against the [current schema](schema/schema-v1.0.0.json). These JSON files are updated periodically as new information is released; new KEVs, new Nuclei templates, that sort of thing.
 
 There's also a [Jupyter Notebook](kev-explore.ipynb) that steps through most of the findings detailed in the paper, but with fresh data (so you won't get exactly the same ratios as documented, but time and exploitation marches on).
 
