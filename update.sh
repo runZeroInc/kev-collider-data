@@ -6,6 +6,7 @@ cd "$ROOT"
 
 LOGFILE="$ROOT/update.log"
 JSON_DIR="$ROOT/json"
+CURRENT_BRANCH="$(git symbolic-ref --short HEAD)"
 
 list_json_files() {
   ls -1 "$JSON_DIR"/*.json 2>/dev/null | xargs -n1 basename | sort || true
@@ -74,7 +75,7 @@ update_submodule_full "sources/nuclei-templates"     "main"
 
 git add sources || fail "Failed to add sources"
 git commit --allow-empty -m "Update sources" || fail "Failed committing source updates"
-git push origin main || fail "Source pointer push failed"
+git push origin "$CURRENT_BRANCH" || fail "Source pointer push failed"
 
 log "Running collect-cves.rb"
 ./collect-cves.rb || fail "Failed on collect-cves.rb"
@@ -92,7 +93,7 @@ log "Running generate_vendor_product_report.sh"
 
 git add "$JSON_DIR" "$ROOT/schema" "$ROOT/reports" || fail "Failed git add $JSON_DIR"
 git commit -m "Updating KEV JSON" || fail "Failed committing $JSON_DIR"
-git push origin main || fail "KEV JSON push failed"
+git push origin "$CURRENT_BRANCH" || fail "KEV JSON push failed"
 
 AFTER_JSON_FILES="$(list_json_files)"
 NEW_JSON_FILES="$(comm -13 <(printf '%s\n' "$BEFORE_JSON_FILES" | sed '/^$/d') <(printf '%s\n' "$AFTER_JSON_FILES" | sed '/^$/d'))"
