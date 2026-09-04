@@ -1,0 +1,24 @@
+[submodule "sources/ctid"]
+	path = sources/ctid
+	url = https://github.com/center-for-threat-informed-defense/mappings-explorer
+	branch = main
+[submodule "sources/kev-data"]
+	path = sources/kev-data
+	url = https://github.com/cisagov/kev-data.git
+	branch = develop
+[submodule "sources/cvelistV5"]
+	path = sources/cvelistV5
+	url = https://github.com/CVEProject/cvelistV5.git
+	branch = main
+[submodule "sources/metasploit-framework"]
+	path = sources/metasploit-framework
+	url = https://github.com/rapid7/metasploit-framework.git
+	branch = master
+[submodule "sources/nuclei-templates"]
+	path = sources/nuclei-templates
+	url = https://github.com/projectdiscovery/nuclei-templates.git
+	branch = main
+[submodule "epss_scores"]
+	path = epss_scores
+	url = https://github.com/empiricalsec/epss_scores
+	branch = main

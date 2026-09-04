@@ -1,0 +1,12 @@
+id: workflow-with-cve
+info:
+  name: Workflow (should be excluded)
+  author: tester
+  severity: critical
+  description: This is in workflows/ and must be excluded.
+  classification:
+    cve-id: CVE-2099-99999
+  tags: test,workflow
+
+workflows:
+  - template: some-template.yaml

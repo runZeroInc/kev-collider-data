@@ -1,0 +1,50 @@
+{
+  "_comment": "Product-name normalization for the vendor/product KEV report. Keys are lowercased raw KEV product names; values are the canonical display name. Matching is per-vendor and case-insensitive, so pure case differences need no entry here.",
+  "Adobe": {
+    "reader and acrobat": "Acrobat and Reader",
+    "commerce and magento": "Commerce and Magento Open Source"
+  },
+  "Apple": {
+    "os x": "macOS"
+  },
+  "Cisco": {
+    "ios software": "IOS",
+    "ios xe software": "IOS XE",
+    "cisco ios xe web ui": "IOS XE Web UI",
+    "cisco ip phones": "IP Phones",
+    "ios and ios xe software": "IOS and IOS XE",
+    "ios software and cisco ios xe software": "IOS and IOS XE",
+    "ios, xr, and xe software": "IOS, IOS XR, and IOS XE",
+    "adaptive security appliance and firepower threat defense": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+    "secure firewall adaptive security appliance and secure firewall threat defense": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
+    "catalyst sd-wan manger": "Catalyst SD-WAN Manager",
+    "rv series routers": "Small Business RV Series Routers",
+    "small business rv320 and rv325 dual gigabit wan vpn routers": "Small Business RV320 and RV325 Routers"
+  },
+  "Citrix": {
+    "netscaler adc and gateway": "NetScaler ADC and NetScaler Gateway"
+  },
+  "D-Link": {
+    "routers": "Multiple Routers",
+    "dns-320 device": "DNS-320 Storage Device"
+  },
+  "Google": {
+    "chrome": "Chromium",
+    "chrome blink": "Chromium Blink",
+    "chrome freetype": "Chromium FreeType",
+    "chrome media": "Chromium Media",
+    "chrome webaudio": "Chromium WebAudio",
+    "chrome for android ui": "Chromium for Android UI",
+    "skia": "Chromium Skia"
+  },
+  "Ivanti": {
+    "cloud services appliance": "Cloud Services Appliance (CSA)"
+  },
+  "Microsoft": {
+    "exchange": "Exchange Server",
+    "sharepoint server": "SharePoint",
+    "smbv1 server": "SMBv1",
+    "office outlook": "Outlook",
+    "edge and internet explorer": "Internet Explorer and Edge"
+  }
+}
