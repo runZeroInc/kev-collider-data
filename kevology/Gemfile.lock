@@ -1,0 +1,58 @@
+PATH
+  remote: .
+  specs:
+    kevology (1.0.0)
+      csv (~> 3.3)
+      cvss-suite (~> 4.1)
+      cvss-to-3.1 (~> 1.0)
+      holidays (~> 8.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.3.1)
+    csv (3.3.5)
+    cvss-suite (4.1.2)
+      bigdecimal (~> 3.1)
+    cvss-to-3.1 (1.0.0)
+      cvss-suite (~> 4.1)
+    diff-lcs (1.6.2)
+    holidays (8.8.0)
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.8)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.7)
+
+PLATFORMS
+  ruby
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  kevology!
+  rspec (~> 3.13)
+
+CHECKSUMS
+  bigdecimal (3.3.1) sha256=eaa01e228be54c4f9f53bf3cc34fe3d5e845c31963e7fcc5bedb05a4e7d52218
+  csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
+  cvss-suite (4.1.2) sha256=b2ced80bb9573d29cd42f728e7653b3df740b480bc18f8ab1c350fde859896f5
+  cvss-to-3.1 (1.0.0) sha256=cb1deb700f15a4894e4e07e7ac557bb37cc353e9ec8634918af657e53bfd11f0
+  diff-lcs (1.6.2) sha256=9ae0d2cba7d4df3075fe8cd8602a8604993efc0dfa934cff568969efb1909962
+  holidays (8.8.0) sha256=17b66199b9316214bda53d9db3fc61b1eb585efbbf3deae72b30caf9a87b1859
+  kevology (1.0.0)
+  rspec (3.13.2) sha256=206284a08ad798e61f86d7ca3e376718d52c0bc944626b2349266f239f820587
+  rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
+  rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
+  rspec-mocks (3.13.8) sha256=086ad3d3d17533f4237643de0b5c42f04b66348c28bf6b9c2d3f4a3b01af1d47
+  rspec-support (3.13.7) sha256=0640e5570872aafefd79867901deeeeb40b0c9875a36b983d85f54fb7381c47c
+
+BUNDLED WITH
+  4.0.1

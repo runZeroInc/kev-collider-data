@@ -1,0 +1,365 @@
+{
+  "title": "Extended, CISA KEV-Inspired Vulnerability Schema",
+  "description": "Version 1.0.0-dev of a schema for known exploited vulnerabilities with strong type validation",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "description": "Version of this CVE JSON schema",
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?$"
+    },
+    "dateGenerated": {
+      "description": "Timestamp of when this CVE JSON record was generated, in ISO 8601 format with UTC time",
+      "type": "string",
+      "format": "date-time",
+      "examples": ["1988-11-03T01:30:00.000Z", "2000-01-01T00:00:00.001Z"]
+    },
+    "cveID": {
+      "description": "The CVE ID in the format CVE-YYYY-NNNN",
+      "type": "string",
+      "pattern": "^CVE-[0-9]{4}-[0-9]{4,19}$"
+    },
+    "cveDataPresent": {
+      "description": "Indicate if CVE data was available at the time of generation",
+      "type": "boolean"
+    },
+    "kev": {
+      "description": "Original KEV source data",
+      "type": "object",
+      "properties": {
+        "vendorProject": { "type": "string" },
+        "product": { "type": "string" },
+        "vulnerabilityName": { "type": "string" },
+        "dateAdded": { "type": "string", "format": "date" },
+        "dayAdded": {
+          "type": "string",
+          "enum": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ]
+        },
+        "dateDue": { "type": "string", "format": "date" },
+        "daysAllotted": { "type": "integer", "minimum": 0 },
+        "holidayAdded": { "type": "string" },
+        "ransomware": { "type": "boolean" },
+        "cwes": {
+          "description": "CWE IDs sourced from KEV, if present",
+          "type": "array",
+          "items": { "type": "string", "pattern": "^CWE-[0-9]+$" },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "vendorProject",
+        "product",
+        "vulnerabilityName",
+        "dateAdded",
+        "dateDue",
+        "daysAllotted",
+        "dayAdded",
+        "ransomware"
+      ],
+      "additionalProperties": false
+    },
+    "cve": {
+      "description": "CVE-specific data, if available",
+      "type": "object",
+      "properties": {
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "assigningCNA": { "type": "string" },
+            "datePublished": { "type": "string", "format": "date-time" },
+            "dateUpdated": { "type": "string", "format": "date-time" }
+          },
+          "additionalProperties": false
+        },
+        "assertions": {
+          "type": "object",
+          "properties": {
+            "cwes": {
+              "description": "List of CWE IDs sourced from the CVE record (CNA preferred over ADP)",
+              "type": "array",
+              "items": { "type": "string", "pattern": "^CWE-[0-9]+$" },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "cvssOriginalVersion": {
+              "description": "Original CVSS version prior to any recasting",
+              "type": "string",
+              "enum": ["3.0", "3.1", "4.0"]
+            },
+            "cvssSource": {
+              "description": "Source of the CVSS score for this CVE",
+              "type": "string",
+              "enum": ["CNA", "CISA", "unknown"]
+            },
+            "cvss": {
+              "description": "CVSS v3.1 score object, nested under assertions",
+              "type": "object",
+              "properties": {
+                "version": { "type": "string", "enum": ["3.1"] },
+                "attackVector": {
+                  "type": "string",
+                  "enum": ["NETWORK", "ADJACENT", "LOCAL", "PHYSICAL"]
+                },
+                "attackComplexity": {
+                  "type": "string",
+                  "enum": ["LOW", "HIGH"]
+                },
+                "privilegesRequired": {
+                  "type": "string",
+                  "enum": ["NONE", "LOW", "HIGH"]
+                },
+                "scope": {
+                  "type": "string",
+                  "enum": ["UNCHANGED", "CHANGED"]
+                },
+                "userInteraction": {
+                  "type": "string",
+                  "enum": ["NONE", "REQUIRED"]
+                },
+                "confidentialityImpact": {
+                  "type": "string",
+                  "enum": ["NONE", "LOW", "HIGH"]
+                },
+                "integrityImpact": {
+                  "type": "string",
+                  "enum": ["NONE", "LOW", "HIGH"]
+                },
+                "availabilityImpact": {
+                  "type": "string",
+                  "enum": ["NONE", "LOW", "HIGH"]
+                },
+                "vectorString": {
+                  "type": "string",
+                  "pattern": "^CVSS:3\\.1/"
+                },
+                "baseScore": {
+                  "type": "number",
+                  "minimum": 0.0,
+                  "maximum": 10.0
+                },
+                "baseSeverity": {
+                  "type": "string",
+                  "enum": ["NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL"]
+                }
+              },
+              "required": [
+                "version",
+                "attackVector",
+                "attackComplexity",
+                "privilegesRequired",
+                "scope",
+                "userInteraction",
+                "confidentialityImpact",
+                "integrityImpact",
+                "availabilityImpact",
+                "vectorString",
+                "baseScore",
+                "baseSeverity"
+              ],
+              "additionalProperties": false
+            },
+            "ssvc": {
+              "description": "Optional SSVC assessment if provided by CISA-ADP",
+              "type": "object",
+              "properties": {
+                "timestamp": { "type": "string" },
+                "version": { "type": "string" },
+                "role": { "type": "string" },
+                "options": {
+                  "type": "object",
+                  "additionalProperties": { "type": "string" }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "attck": {
+      "description": "MITRE ATT&CK technique mappings derived from CTID KEV capability mappings",
+      "type": "object",
+      "properties": {
+        "enterprise": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "mappingType": {
+                "type": "string",
+                "enum": [
+                  "primary_impact",
+                  "secondary_impact",
+                  "exploitation_technique",
+                  "uncategorized"
+                ]
+              },
+              "id": {
+                "description": "ATT&CK technique ID",
+                "type": "string",
+                "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"
+              },
+              "name": {
+                "description": "ATT&CK technique name",
+                "type": "string"
+              },
+              "capabilityGroup": {
+                "description": "CTID capability group",
+                "type": "string"
+              },
+              "source": {
+                "description": "CTID source and version",
+                "type": "string"
+              }
+            },
+            "required": [
+              "mappingType",
+              "id",
+              "name",
+              "capabilityGroup",
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        },
+        "mobile": {
+          "type": "array",
+          "items": {
+            "$ref": "#/properties/attck/properties/enterprise/items"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "epss": {
+      "description": "Optional EPSS data for this CVE. If present, today's score and percentile are required.",
+      "type": "object",
+      "properties": {
+        "todayScore": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 0.99999
+        },
+        "todayPercentile": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1.0
+        },
+        "yesterdayScore": {
+          "type": "number",
+          "minimum": 0.00001,
+          "maximum": 0.99999
+        },
+        "yesterdayPercentile": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "deltaScore": {
+          "type": "number",
+          "minimum": -0.99998,
+          "maximum": 0.99998
+        },
+        "deltaPercentile": {
+          "type": "number",
+          "minimum": -0.99998,
+          "maximum": 0.99998
+        }
+      },
+      "required": ["todayScore", "todayPercentile"],
+      "additionalProperties": false
+    }
+  },
+  "metasploit": {
+    "description": "Information on Metasploit modules associated with this CVE (if present)",
+    "type": "object",
+    "properties": {
+      "modules": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "module": {
+              "description": "Pathname of the Metasploit module",
+              "type": "string"
+            },
+            "firstCommitDate": {
+              "description": "Timestamp of the first Git commit for this module",
+              "type": "string",
+              "format": "date-time"
+            },
+            "deltaFromKev": {
+              "description": "Days between KEV dateAdded and module commit (negative means module predates KEV)",
+              "type": "integer"
+            },
+            "deltaFromCve": {
+              "description": "Days between CVE publication and module commit (negative means module predates CVE)",
+              "type": "integer"
+            }
+          },
+          "required": ["module", "firstCommitDate", "deltaFromKev"],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "additionalProperties": false
+  },
+  "nuclei": {
+    "description": "Information on Nuclei templates associated with this CVE (if present)",
+    "type": "object",
+    "properties": {
+      "templates": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "template": {
+              "description": "Pathname of the Nuclei template",
+              "type": "string"
+            },
+            "firstCommitDate": {
+              "description": "Timestamp of the first Git commit for this template",
+              "type": "string",
+              "format": "date-time"
+            },
+            "deltaFromKev": {
+              "description": "Days between KEV dateAdded and template commit (negative means template predates KEV)",
+              "type": "integer"
+            },
+            "deltaFromCve": {
+              "description": "Days between CVE publication and template commit (negative means template predates CVE)",
+              "type": "integer"
+            }
+          },
+          "required": ["template", "firstCommitDate", "deltaFromKev"],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "additionalProperties": false
+  },
+  "required": [
+    "schemaVersion",
+    "dateGenerated",
+    "cveID",
+    "cveDataPresent",
+    "kev"
+  ]
+}

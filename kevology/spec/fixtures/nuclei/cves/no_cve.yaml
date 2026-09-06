@@ -1,0 +1,16 @@
+id: no-cve-template
+info:
+  name: Template without CVE
+  author: tester
+  severity: info
+  description: This template has no CVE classification.
+  tags: test
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+    matchers:
+      - type: word
+        words:
+          - "test"
