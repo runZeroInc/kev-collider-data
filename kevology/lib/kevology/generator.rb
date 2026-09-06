@@ -12,6 +12,8 @@ module Kevology
   class Generator
     SCHEMA_VERSION = "1.1.0-dev"
     SCHEMA_PATH    = File.join(__dir__, "schema-v#{SCHEMA_VERSION}.json")
+    MAX_EPSS_COMPRESSED_BYTES = 250_000_000
+    MAX_EPSS_ROWS = 1_000_000
 
     # Returns the bundled JSON schema (lazy-loaded).
     def self.schema
@@ -52,13 +54,30 @@ module Kevology
 
     def self.parse_epss_snapshot(path)
       data = {}
+      stat = File.lstat(path)
+      raise ArgumentError, "EPSS snapshot is not a regular file: #{path}" unless stat.file?
+      raise ArgumentError, "EPSS snapshot is too large: #{path}" if stat.size > MAX_EPSS_COMPRESSED_BYTES
 
       Zlib::GzipReader.open(path) do |gz|
-        lines = gz.each_line.reject { |l| l.start_with?('#') }.join
-        csv   = CSV.new(StringIO.new(lines), headers: true)
+        headers = nil
+        row_count = 0
 
-        csv.each do |row|
-          cve  = row['cve']
+        gz.each_line do |line|
+          next if line.start_with?('#')
+
+          fields = CSV.parse_line(line)
+          next unless fields
+
+          unless headers
+            headers = fields
+            next
+          end
+
+          row_count += 1
+          raise ArgumentError, "EPSS snapshot has too many rows: #{path}" if row_count > MAX_EPSS_ROWS
+
+          row = headers.zip(fields).to_h
+          cve = row['cve']
           next unless cve
 
           epss = row['epss']&.to_f

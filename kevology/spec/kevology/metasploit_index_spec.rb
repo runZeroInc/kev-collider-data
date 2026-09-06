@@ -118,6 +118,34 @@ RSpec.describe Kevology::MetasploitIndex do
     end
   end
 
+  describe 'untrusted source guards' do
+    it 'skips oversized module files' do
+      Dir.mktmpdir('msf_large_') do |root|
+        path = File.join(root, 'large.rb')
+        File.write(path, "'CVE'\n" + ('x' * (described_class::MAX_SOURCE_FILE_BYTES + 1)))
+
+        guarded = described_class.new(root: root, cache_file: nil, debug: false)
+        expect(guarded.index).to be_empty
+      end
+    end
+
+    it 'skips symlinked module files' do
+      Dir.mktmpdir('msf_symlink_') do |root|
+        Dir.mktmpdir('msf_symlink_target_') do |target_root|
+          target = File.join(target_root, 'target.rb')
+          link = File.join(root, 'linked.rb')
+          File.write(target, "['CVE', '2021-44228']\n")
+          File.symlink(target, link)
+
+          guarded = described_class.new(root: root, cache_file: nil, debug: false)
+          expect(guarded.index).to be_empty
+        end
+      rescue NotImplementedError
+        skip 'symlinks are not supported on this platform'
+      end
+    end
+  end
+
   describe 'cache persistence' do
     it 'writes the cache file after building' do
       Dir.mktmpdir('msf_persist_') do |tmpdir|

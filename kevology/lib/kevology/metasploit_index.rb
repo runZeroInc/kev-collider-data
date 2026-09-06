@@ -7,6 +7,8 @@ require 'open3'
 
 module Kevology
   class MetasploitIndex
+    MAX_SOURCE_FILE_BYTES = 1_000_000
+
     # Matches arrays like ['CVE', '2025-12345']
     CVE_REF_REGEX = /
       \[\s*
@@ -70,6 +72,8 @@ module Kevology
     end
 
     def scan_file_with_regex(path:, cve_regex:, precheck:, error_label:)
+      return unless acceptable_source_file?(path)
+
       content = File.read(path)
       return unless precheck.call(content)
 
@@ -107,6 +111,21 @@ module Kevology
         precheck:    ->(c) { c.match?(/['"]type['"]\s*:\s*['"]cve['"]/i) },
         error_label: 'Python'
       )
+    end
+
+    def acceptable_source_file?(path)
+      stat = File.lstat(path)
+      return false unless stat.file?
+
+      if stat.size > MAX_SOURCE_FILE_BYTES
+        warn "Metasploit source file too large, skipping: #{path}"
+        return false
+      end
+
+      true
+    rescue SystemCallError => e
+      warn "Metasploit source stat error in #{path}: #{e.message}"
+      false
     end
 
     #

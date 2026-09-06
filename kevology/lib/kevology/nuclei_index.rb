@@ -10,6 +10,7 @@ require 'open3'
 module Kevology
   class NucleiIndex
     CVE_ID_REGEX = /^CVE-\d{4}-\d{4,19}$/i.freeze
+    MAX_TEMPLATE_BYTES = 1_000_000
 
     EXCLUDED_DIRS = %w[
       workflows
@@ -112,6 +113,8 @@ module Kevology
       return if @seen_yaml_files[path]
       @seen_yaml_files[path] = true
 
+      return unless acceptable_template_file?(path)
+
       content = File.read(path)
 
       # Guard against files that don't mention a CVE ID
@@ -126,6 +129,21 @@ module Kevology
     rescue Psych::Exception => e
       warn "[nuclei] YAML error in #{path}: #{e.message}"
       nil
+    end
+
+    def acceptable_template_file?(path)
+      stat = File.lstat(path)
+      return false unless stat.file?
+
+      if stat.size > MAX_TEMPLATE_BYTES
+        warn "[nuclei] Template file too large, skipping: #{path}"
+        return false
+      end
+
+      true
+    rescue SystemCallError => e
+      warn "[nuclei] Template stat error in #{path}: #{e.message}"
+      false
     end
 
     #

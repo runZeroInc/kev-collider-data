@@ -125,6 +125,34 @@ RSpec.describe Kevology::NucleiIndex do
     end
   end
 
+  describe 'untrusted template guards' do
+    it 'skips oversized template files' do
+      Dir.mktmpdir('nuclei_large_') do |root|
+        path = File.join(root, 'large.yaml')
+        File.write(path, "info:\n  classification:\n    cve-id: CVE-2021-44228\n" + ('x' * (described_class::MAX_TEMPLATE_BYTES + 1)))
+
+        guarded = described_class.new(root: root, cache_file: nil, debug: false)
+        expect(guarded.index).to be_empty
+      end
+    end
+
+    it 'skips symlinked template files' do
+      Dir.mktmpdir('nuclei_symlink_') do |root|
+        Dir.mktmpdir('nuclei_symlink_target_') do |target_root|
+          target = File.join(target_root, 'target.yaml')
+          link = File.join(root, 'linked.yaml')
+          File.write(target, "info:\n  classification:\n    cve-id: CVE-2021-44228\n")
+          File.symlink(target, link)
+
+          guarded = described_class.new(root: root, cache_file: nil, debug: false)
+          expect(guarded.index).to be_empty
+        end
+      rescue NotImplementedError
+        skip 'symlinks are not supported on this platform'
+      end
+    end
+  end
+
   describe 'cache persistence' do
     it 'writes the cache file after building' do
       Dir.mktmpdir('nuclei_persist_') do |tmpdir|
