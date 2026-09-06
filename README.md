@@ -6,13 +6,37 @@ This is the data repository for [KEV Collider](https://www.runzero.com/kev-colli
 
 One of the upsides of publishing the backing data is that we can collect complaints, and more importantly, feature requests, for the front end at [KEV Collider](https://www.runzero.com/kev-collider/). Of course, you could just write your own visualization, filtering, and sorting (thanks to runZero's permissive [LICENSE](LICENSE)) for this data, but it seems like it's a lot easier to bully us into implementing your ideas.
 
-So, if you happen to come across a solid, public data set that talks about CVE-identified vulnerabilities, and want to see it integrated, open a GitHub issue in the usual way.
+So, if you happen to come across a solid, public data set that talks about CVE-identified vulnerabilities, and want to see it integrated, open a GitHub issue in the usual way. Public, actively maintained data sources that can be consumed as Git submodules are especially useful here; source repositories live under `sources/`, while generated KEV context records live under `json/`.
+
+Pull requests are welcome for pipeline fixes, validation improvements, schema improvements, and source integrations. If you want to propose a new source, please include what CVE-keyed signal it adds, where it should live under `sources/`, how often it updates, and any licensing or attribution requirements we should preserve.
 
 One exception is if you happen across a security issue with either this repo, or with the web front end. For security vulnerability reporting, please refer to runZero's security.txt guidance, at https://runzero.com/.well-known/security.txt. And thanks for your report. We'll be suitably impressed with your finding.
 
 ## Usage: This repo
 
-This repo is pretty straight forward. You'll find a whole pile of JSON files in `json/`, each of which describes a KEV-listed CVE with a bunch of decorations. To make sense of those JSON files, check it against the [current schema](schema/schema-v1.0.0.json). These JSON files are updated periodically as new information is released; new KEVs, new Nuclei templates, that sort of thing.
+This repo is pretty straight forward. You'll find a whole pile of JSON files in `json/`, each of which describes a KEV-listed CVE with a bunch of decorations. To make sense of those JSON files, check them against the [current schema](schema/schema-v1.1.0-dev.json). These JSON files are updated periodically as new information is released; new KEVs, new Nuclei templates, new EPSS scores, that sort of thing.
+
+The data pipeline lives in this repo. Source data is checked out as Git submodules under `sources/`, the enrichment logic lives in `kevology/`, and the scripts in `bin/` generate, validate, and report on the published JSON. A fresh checkout needs submodules initialized before the pipeline has all of its inputs:
+
+```sh
+git submodule update --init --recursive
+```
+
+Some sources are large. `sources/metasploit-framework` keeps full Git history for commit-date lookups, but its working tree is limited to `modules/` because those are the files used by the enrichment pipeline.
+
+The normal update entrypoint is:
+
+```sh
+./update.sh
+```
+
+That script updates the source submodules, regenerates `json/`, validates the generated files against the schema, and refreshes generated reports such as `reports/vendor-product-sorted-kevs.md`. If you're hacking on the pipeline, the most useful smaller pieces are:
+
+```sh
+./bin/generate_kev_contexts.rb
+./bin/validator.rb
+./bin/generate_vendor_product_report.sh
+```
 
 There's also a [Jupyter Notebook](kev-explore.ipynb) that steps through most of the findings detailed in the paper, but with fresh data (so you won't get exactly the same ratios as documented, but time and exploitation marches on).
 
