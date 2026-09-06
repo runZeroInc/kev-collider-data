@@ -14,13 +14,10 @@
 	path = sources/metasploit-framework
 	url = https://github.com/rapid7/metasploit-framework.git
 	branch = master
+	ignore = dirty
 [submodule "sources/nuclei-templates"]
 	path = sources/nuclei-templates
 	url = https://github.com/projectdiscovery/nuclei-templates.git
-	branch = main
-[submodule "epss_scores"]
-	path = epss_scores
-	url = https://github.com/empiricalsec/epss_scores
 	branch = main
 [submodule "sources/epss_scores"]
 	path = sources/epss_scores
