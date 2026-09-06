@@ -10,7 +10,7 @@ require 'open3'
 module Kevology
   class NucleiIndex
     CVE_ID_REGEX = /^CVE-\d{4}-\d{4,19}$/i.freeze
-    MAX_TEMPLATE_BYTES = 1_000_000
+    MAX_TEMPLATE_BYTES = 16_000_000
 
     EXCLUDED_DIRS = %w[
       workflows
