@@ -81,9 +81,6 @@ git add sources || fail "Failed to add sources"
 git commit --allow-empty -m "Update sources" || fail "Failed committing source updates"
 git push origin "$CURRENT_BRANCH" || fail "Source pointer push failed"
 
-log "Running collect-cves.rb"
-./collect-cves.rb || fail "Failed on collect-cves.rb"
-
 log "Running generate_kev_contexts.rb"
 rm -f "$JSON_DIR"/*.json || fail "Failed to rm existing JSON files"
 ./bin/generate_kev_contexts.rb || fail "Failed on generate_kev_contexts.rb"

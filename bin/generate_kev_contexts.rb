@@ -8,7 +8,7 @@ require 'kevology'
 
 SOURCES_DIR = File.expand_path('../sources', __dir__)
 KEV_JSON    = File.join(SOURCES_DIR, 'kev-data/known_exploited_vulnerabilities.json')
-CVE_DIR     = File.expand_path('../cves-original', __dir__)
+CVELIST_DIR = File.join(SOURCES_DIR, 'cvelistV5/cves')
 OUTPUT_DIR  = File.expand_path('../json', __dir__)
 
 Kevology.configure do |c|
@@ -25,6 +25,14 @@ end
 
 FileUtils.mkdir_p(OUTPUT_DIR)
 
+def cve_file_for(cve_id)
+  match = cve_id.match(/\ACVE-(\d{4})-\d{4,19}\z/)
+  return unless match
+
+  matches = Dir.glob(File.join(CVELIST_DIR, match[1], '*xxx', "#{cve_id}.json"))
+  matches.first
+end
+
 kev_data  = JSON.parse(File.read(KEV_JSON))
 kev_vulns = kev_data['vulnerabilities']
 
@@ -36,13 +44,14 @@ missing_count = 0
 kev_vulns.each do |vuln|
   cve_data = nil
   cve_id   = vuln['cveID']
-  cve_file = File.join(CVE_DIR, "#{cve_id}.json")
+  cve_file = cve_file_for(cve_id)
 
-  if File.exist?(cve_file)
+  if cve_file && File.exist?(cve_file)
     cve_data = JSON.parse(File.read(cve_file))
   else
     warn "[!] Missing CVE file for #{cve_id}, most useful data will be missing!"
     missing_count += 1
+    cve_file = File.join(CVELIST_DIR, "#{cve_id}.json")
   end
 
   generator   = Kevology::Generator.new(kev_entry: vuln, cve_filename: cve_file, cve_data: cve_data)
