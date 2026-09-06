@@ -51,11 +51,15 @@ update_submodule_shallow() {
 # this script so that the fetch is incremental rather than a full clone.
 # reset --hard handles upstream force-pushes without manual intervention.
 update_submodule_full() {
-  local rel_path="$1" branch="$2"
+  local rel_path="$1" branch="$2" sparse_path="${3:-}"
   log "Updating (full history) $rel_path"
   if [ ! -e "$ROOT/$rel_path/.git" ]; then
     git submodule update --init -- "$rel_path" \
       || fail "Full init failed: $rel_path"
+  fi
+  if [ -n "$sparse_path" ]; then
+    git -C "$ROOT/$rel_path" sparse-checkout set --no-cone "$sparse_path" \
+      || fail "Sparse checkout failed: $rel_path"
   fi
   git -C "$ROOT/$rel_path" fetch origin "$branch" \
     || fail "Fetch failed: $rel_path"
@@ -70,7 +74,7 @@ update_submodule_shallow "sources/ctid"        "main"
 update_submodule_shallow "sources/epss_scores" "main"
 
 # Full-history submodules — git log is used for first-commit-date lookups.
-update_submodule_full "sources/metasploit-framework" "master"
+update_submodule_full "sources/metasploit-framework" "master" "modules"
 update_submodule_full "sources/nuclei-templates"     "main"
 
 git add sources || fail "Failed to add sources"
