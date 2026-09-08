@@ -1,12 +1,12 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-06T23:57:05Z
+Generated: 2026-09-08T20:10:45Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
 | Vendor | Product | KEV Count | Latest Date Added | Ransomware KEVs | Most Recently Added CVE |
 | --- | --- | ---: | --- | ---: | --- |
-| Microsoft | Windows | 172 | 2026-05-20 | 49 | CVE-2008-4250 |
+| Microsoft | Windows | 174 | 2026-09-08 | 49 | CVE-2026-85880 |
 | Apple | Multiple Products | 53 | 2026-03-20 | 0 | CVE-2025-43520 |
 | Google | Chromium V8 | 40 | 2026-09-04 | 0 | CVE-2026-85046 |
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
@@ -46,6 +46,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zoho | ManageEngine | 6 | 2023-03-07 | 2 | CVE-2022-28810 |
 | Cisco | IOS XR | 6 | 2022-05-23 | 0 | CVE-2022-20821 |
 | Mozilla | Firefox and Thunderbird | 6 | 2022-05-23 | 0 | CVE-2019-11708 |
+| N-able | N-central | 5 | 2026-09-08 | 0 | CVE-2026-86218 |
 | SonicWall | SMA1000 Appliances | 5 | 2026-09-02 | 3 | CVE-2026-83549 |
 | Langflow | Langflow | 5 | 2026-07-21 | 1 | CVE-2026-0770 |
 | Cisco | Catalyst SD-WAN Manager | 5 | 2026-06-15 | 0 | CVE-2026-20262 |
@@ -60,7 +61,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
 | JetBrains | TeamCity | 4 | 2026-08-05 | 3 | CVE-2026-63077 |
-| N-able | N-central | 4 | 2026-08-04 | 0 | CVE-2026-18556 |
 | Oracle | E-Business Suite | 4 | 2026-07-15 | 3 | CVE-2026-46817 |
 | SimpleHelp | SimpleHelp | 4 | 2026-06-29 | 3 | CVE-2026-48558 |
 | SolarWinds | Serv-U | 4 | 2026-06-05 | 1 | CVE-2026-28318 |
@@ -86,6 +86,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| Adobe | Commerce and Magento Open Source | 3 | 2026-09-08 | 0 | CVE-2026-75650 |
 | BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
 | Ubiquiti | UniFi OS | 3 | 2026-06-23 | 0 | CVE-2026-34910 |
@@ -142,7 +143,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Citrix | NetScaler | 2 | 2026-03-30 | 0 | CVE-2026-3055 |
 | Wing FTP Server | Wing FTP Server | 2 | 2026-03-16 | 0 | CVE-2025-47813 |
 | GitLab | Community and Enterprise Editions | 2 | 2026-02-03 | 1 | CVE-2021-39935 |
-| WatchGuard | Firebox | 2 | 2025-12-19 | 0 | CVE-2025-14733 |
+| WatchGuard | Firebox | 2 | 2025-12-19 | 1 | CVE-2025-14733 |
 | Gladinet | CentreStack and Triofox | 2 | 2025-12-15 | 0 | CVE-2025-14611 |
 | OSGeo | GeoServer | 2 | 2025-12-11 | 0 | CVE-2025-58360 |
 | OpenPLC | ScadaBR | 2 | 2025-12-03 | 0 | CVE-2021-26828 |
@@ -180,7 +181,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | DrayTek | VigorConnect | 2 | 2024-09-03 | 0 | CVE-2021-20124 |
 | Dahua | IP Camera Firmware | 2 | 2024-08-21 | 0 | CVE-2021-33045 |
 | ServiceNow | Utah, Vancouver, and Washington DC Now Platform | 2 | 2024-07-29 | 0 | CVE-2024-5217 |
-| Adobe | Commerce and Magento Open Source | 2 | 2024-07-17 | 0 | CVE-2024-34102 |
 | Arm | Mali GPU Kernel Driver | 2 | 2024-06-12 | 0 | CVE-2024-4610 |
 | D-Link | Multiple NAS Devices | 2 | 2024-04-11 | 0 | CVE-2024-3273 |
 | Ivanti | Connect Secure and Policy Secure | 2 | 2024-01-10 | 2 | CVE-2024-21887 |
