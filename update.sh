@@ -92,7 +92,10 @@ log "Validation passed, publishing"
 log "Running generate_vendor_product_report.sh"
 ./bin/generate_vendor_product_report.sh || fail "Failed on generate_vendor_product_report.sh"
 
-git add "$JSON_DIR" "$ROOT/schema" "$ROOT/reports" || fail "Failed git add $JSON_DIR"
+git add "$JSON_DIR" "$ROOT/schema" "$ROOT/reports" \
+  "$ROOT/sources/metasploit-commit-dates.json" \
+  "$ROOT/sources/nuclei-commit-dates.json" \
+  || fail "Failed git add generated data"
 git commit -m "Updating KEV JSON" || fail "Failed committing $JSON_DIR"
 git push origin "$CURRENT_BRANCH" || fail "KEV JSON push failed"
 
