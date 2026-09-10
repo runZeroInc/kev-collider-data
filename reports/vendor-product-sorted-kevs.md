@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-09T15:35:48Z
+Generated: 2026-09-10T14:23:48Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -8,16 +8,16 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | --- | --- | ---: | --- | ---: | --- |
 | Microsoft | Windows | 174 | 2026-09-08 | 49 | CVE-2026-85880 |
 | Apple | Multiple Products | 53 | 2026-03-20 | 0 | CVE-2025-43520 |
-| Google | Chromium V8 | 40 | 2026-09-04 | 0 | CVE-2026-85046 |
+| Google | Chromium V8 | 41 | 2026-09-09 | 0 | CVE-2026-87491 |
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
 | Adobe | Flash Player | 33 | 2024-09-17 | 5 | CVE-2014-0502 |
 | Microsoft | Office | 29 | 2026-04-14 | 3 | CVE-2009-0238 |
 | Linux | Kernel | 28 | 2026-08-27 | 2 | CVE-2026-53362 |
-| Microsoft | Win32k | 25 | 2023-06-22 | 9 | CVE-2016-0165 |
+| Microsoft | Win32k | 25 | 2023-06-22 | 11 | CVE-2016-0165 |
 | Adobe | Acrobat and Reader | 21 | 2026-05-20 | 2 | CVE-2009-3459 |
 | Cisco | IOS and IOS XE | 21 | 2025-09-29 | 0 | CVE-2025-20352 |
 | Microsoft | Exchange Server | 18 | 2026-04-13 | 14 | CVE-2023-21529 |
-| Synacor | Zimbra Collaboration Suite (ZCS) | 17 | 2026-08-21 | 4 | CVE-2026-73570 |
+| Synacor | Zimbra Collaboration Suite (ZCS) | 17 | 2026-08-21 | 5 | CVE-2026-73570 |
 | Adobe | ColdFusion | 16 | 2026-07-07 | 3 | CVE-2026-48282 |
 | Microsoft | SharePoint | 14 | 2026-08-18 | 8 | CVE-2026-55040 |
 | Samsung | Mobile Devices | 13 | 2025-11-10 | 0 | CVE-2025-21042 |
@@ -39,6 +39,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7 | 2024-10-24 | 3 | CVE-2024-20481 |
 | Oracle | Java SE | 7 | 2022-03-28 | 4 | CVE-2013-2465 |
 | Ivanti | Pulse Connect Secure | 7 | 2021-11-03 | 2 | CVE-2021-22900 |
+| Fortinet | Multiple Products | 6 | 2026-09-09 | 1 | CVE-2025-25249 |
 | Apache | Tomcat | 6 | 2026-08-04 | 1 | CVE-2026-34486 |
 | Android | Framework | 6 | 2026-06-02 | 0 | CVE-2025-48595 |
 | Oracle | Fusion Middleware | 6 | 2025-11-21 | 1 | CVE-2025-61757 |
@@ -54,7 +55,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Ivanti | Endpoint Manager (EPM) | 5 | 2026-03-09 | 0 | CVE-2026-1603 |
 | SolarWinds | Web Help Desk | 5 | 2026-03-09 | 1 | CVE-2025-26399 |
 | Apple | iOS and iPadOS | 5 | 2026-03-05 | 0 | CVE-2023-41974 |
-| Fortinet | Multiple Products | 5 | 2026-01-27 | 1 | CVE-2026-24858 |
 | Zyxel | Multiple Firewalls | 5 | 2024-12-03 | 1 | CVE-2024-11667 |
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Apache | Struts | 5 | 2022-03-25 | 1 | CVE-2013-2251 |
@@ -86,6 +86,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| Citrix | NetScaler | 3 | 2026-09-09 | 0 | CVE-2026-19490 |
 | Adobe | Commerce and Magento Open Source | 3 | 2026-09-08 | 0 | CVE-2026-75650 |
 | BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
@@ -140,7 +141,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Ivanti | Sentry | 2 | 2026-06-11 | 1 | CVE-2026-10520 |
 | Trend Micro | Apex One | 2 | 2026-05-21 | 0 | CVE-2026-34926 |
 | Samsung | MagicINFO 9 Server | 2 | 2026-04-24 | 0 | CVE-2024-7399 |
-| Citrix | NetScaler | 2 | 2026-03-30 | 0 | CVE-2026-3055 |
 | Wing FTP Server | Wing FTP Server | 2 | 2026-03-16 | 0 | CVE-2025-47813 |
 | GitLab | Community and Enterprise Editions | 2 | 2026-02-03 | 1 | CVE-2021-39935 |
 | WatchGuard | Firebox | 2 | 2025-12-19 | 1 | CVE-2025-14733 |
@@ -228,6 +228,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 1 | 2026-09-09 | 0 | CVE-2026-20079 |
 | Kestra | Kestra OSS | 1 | 2026-09-02 | 0 | CVE-2026-49869 |
 | Kludex | Starlette | 1 | 2026-09-02 | 0 | CVE-2026-48710 |
 | Sangoma | Switchvox | 1 | 2026-09-02 | 0 | CVE-2026-9586 |
