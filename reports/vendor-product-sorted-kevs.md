@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-10T14:23:48Z
+Generated: 2026-09-11T20:12:54Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -59,6 +59,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Apache | Struts | 5 | 2022-03-25 | 1 | CVE-2013-2251 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
+| MikroTik | RouterOS | 4 | 2026-09-10 | 0 | CVE-2026-86060 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
 | JetBrains | TeamCity | 4 | 2026-08-05 | 3 | CVE-2026-63077 |
 | Oracle | E-Business Suite | 4 | 2026-07-15 | 3 | CVE-2026-46817 |
@@ -133,7 +134,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Microsoft | SQL Server | 2 | 2026-08-26 | 1 | CVE-2019-1068 |
 | TrueConf | Server | 2 | 2026-08-20 | 0 | CVE-2026-72530 |
 | Metabase | Metabase | 2 | 2026-08-11 | 0 | CVE-2026-72898 |
-| Cisco | Secure Firewall Management Center (FMC) | 2 | 2026-07-29 | 1 | CVE-2026-20316 |
+| Cisco | Secure Firewall Management Center (FMC) | 2 | 2026-07-29 | 2 | CVE-2026-20316 |
 | WordPress | Core | 2 | 2026-07-21 | 0 | CVE-2026-63030 |
 | Fortinet | FortiSandbox | 2 | 2026-07-16 | 0 | CVE-2026-39808 |
 | Cisco | Unified Communications Manager | 2 | 2026-06-25 | 0 | CVE-2026-20230 |
@@ -195,7 +196,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | TIBCO | JasperReports | 2 | 2022-12-29 | 0 | CVE-2018-5430 |
 | Cisco | AnyConnect Secure | 2 | 2022-10-24 | 2 | CVE-2020-3433 |
 | Sophos | Firewall | 2 | 2022-09-23 | 0 | CVE-2022-3236 |
-| MikroTik | RouterOS | 2 | 2022-09-08 | 0 | CVE-2018-7445 |
 | NETGEAR | Multiple Devices | 2 | 2022-09-08 | 0 | CVE-2017-5521 |
 | PEAR | Archive_Tar | 2 | 2022-08-25 | 0 | CVE-2020-36193 |
 | Google | Chromium Intents | 2 | 2022-08-18 | 0 | CVE-2022-2856 |
@@ -239,7 +239,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Gitea | Gitea | 1 | 2026-08-25 | 0 | CVE-2026-60004 |
 | Oracle | HTTP Server and Oracle Weblogic Server Proxy Plug-in | 1 | 2026-08-24 | 0 | CVE-2026-21962 |
 | MLflow | MLflow | 1 | 2026-08-19 | 0 | CVE-2026-64849 |
-| Broadcom | VMware vCenter | 1 | 2026-08-18 | 0 | CVE-2026-59310 |
+| Broadcom | VMware vCenter | 1 | 2026-08-18 | 1 | CVE-2026-59310 |
 | Microsoft | Internet Key Exchange (IKE) Service Extensions | 1 | 2026-08-18 | 0 | CVE-2026-33824 |
 | Ray-Project | Ray | 1 | 2026-08-17 | 0 | CVE-2025-62593 |
 | Microsoft | Windows Ancillary Function Driver for WinSock | 1 | 2026-08-11 | 0 | CVE-2026-68820 |
