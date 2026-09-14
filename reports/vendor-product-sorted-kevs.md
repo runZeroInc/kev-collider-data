@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-11T20:12:54Z
+Generated: 2026-09-14T20:38:59Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -59,6 +59,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Apache | Struts | 5 | 2022-03-25 | 1 | CVE-2013-2251 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
+| ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
+| JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
 | MikroTik | RouterOS | 4 | 2026-09-10 | 0 | CVE-2026-86060 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
 | JetBrains | TeamCity | 4 | 2026-08-05 | 3 | CVE-2026-63077 |
@@ -93,7 +95,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
 | Ubiquiti | UniFi OS | 3 | 2026-06-23 | 0 | CVE-2026-34910 |
 | Drupal | Core | 3 | 2026-05-22 | 1 | CVE-2026-9082 |
-| ConnectWise | ScreenConnect | 3 | 2026-04-28 | 2 | CVE-2024-1708 |
 | Apache | ActiveMQ | 3 | 2026-04-16 | 1 | CVE-2026-34197 |
 | Fortinet | FortiClient EMS | 3 | 2026-04-13 | 1 | CVE-2026-21643 |
 | F5 | BIG-IP | 3 | 2026-03-27 | 2 | CVE-2025-53521 |
@@ -130,7 +131,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
-| JFrog | Artifactory | 2 | 2026-09-02 | 0 | CVE-2026-82329 |
 | Microsoft | SQL Server | 2 | 2026-08-26 | 1 | CVE-2019-1068 |
 | TrueConf | Server | 2 | 2026-08-20 | 0 | CVE-2026-72530 |
 | Metabase | Metabase | 2 | 2026-08-11 | 0 | CVE-2026-72898 |
@@ -228,6 +228,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| GitLab | Community Edition and Enterprise Edition | 1 | 2026-09-11 | 0 | CVE-2026-85706 |
 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 1 | 2026-09-09 | 0 | CVE-2026-20079 |
 | Kestra | Kestra OSS | 1 | 2026-09-02 | 0 | CVE-2026-49869 |
 | Kludex | Starlette | 1 | 2026-09-02 | 0 | CVE-2026-48710 |
