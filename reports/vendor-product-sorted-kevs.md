@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-14T20:38:59Z
+Generated: 2026-09-16T14:44:16Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -131,6 +131,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| Google | Pixel | 2 | 2026-09-16 | 0 | CVE-2026-58704 |
 | Microsoft | SQL Server | 2 | 2026-08-26 | 1 | CVE-2019-1068 |
 | TrueConf | Server | 2 | 2026-08-20 | 0 | CVE-2026-72530 |
 | Metabase | Metabase | 2 | 2026-08-11 | 0 | CVE-2026-72898 |
@@ -228,6 +229,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Cisco | Secure Email Gateway | 1 | 2026-09-14 | 0 | CVE-2026-76461 |
 | GitLab | Community Edition and Enterprise Edition | 1 | 2026-09-11 | 0 | CVE-2026-85706 |
 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 1 | 2026-09-09 | 0 | CVE-2026-20079 |
 | Kestra | Kestra OSS | 1 | 2026-09-02 | 0 | CVE-2026-49869 |
@@ -513,7 +515,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Ubiquiti | AirOS | 1 | 2022-04-15 | 0 | CVE-2010-5330 |
 | VMware | Workspace ONE Access and Identity Manager | 1 | 2022-04-14 | 1 | CVE-2022-22954 |
 | Checkbox | Checkbox Survey | 1 | 2022-04-11 | 0 | CVE-2021-27852 |
-| Google | Pixel | 1 | 2022-04-11 | 0 | CVE-2021-39793 |
 | QNAP | QNAP Network-Attached Storage (NAS) | 1 | 2022-04-11 | 0 | CVE-2020-2509 |
 | WatchGuard | Firebox and XTM | 1 | 2022-04-11 | 0 | CVE-2022-23176 |
 | Microsoft | HTTP Protocol Stack | 1 | 2022-04-06 | 0 | CVE-2021-31166 |
