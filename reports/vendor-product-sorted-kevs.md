@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-16T14:44:16Z
+Generated: 2026-09-17T13:51:00Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -89,6 +89,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
 | Citrix | NetScaler | 3 | 2026-09-09 | 0 | CVE-2026-19490 |
 | Adobe | Commerce and Magento Open Source | 3 | 2026-09-08 | 0 | CVE-2026-75650 |
 | BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
@@ -157,7 +158,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | TP-Link | Multiple Routers | 2 | 2025-09-03 | 0 | CVE-2025-9377 |
 | Citrix | Session Recording | 2 | 2025-08-25 | 0 | CVE-2024-8069 |
 | D-Link | DCS-2530L and DCS-2670L Devices | 2 | 2025-08-05 | 0 | CVE-2020-25079 |
-| Cisco | Identity Services Engine | 2 | 2025-07-28 | 0 | CVE-2025-20337 |
 | SysAid | SysAid On-Prem | 2 | 2025-07-22 | 0 | CVE-2025-2776 |
 | D-Link | DIR-859 Router | 2 | 2025-06-25 | 0 | CVE-2024-0769 |
 | GeoVision | Multiple Devices | 2 | 2025-05-07 | 0 | CVE-2024-6047 |
@@ -229,6 +229,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Acronis | Backup | 1 | 2026-09-16 | 0 | CVE-2026-87886 |
 | Cisco | Secure Email Gateway | 1 | 2026-09-14 | 0 | CVE-2026-76461 |
 | GitLab | Community Edition and Enterprise Edition | 1 | 2026-09-11 | 0 | CVE-2026-85706 |
 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 1 | 2026-09-09 | 0 | CVE-2026-20079 |
