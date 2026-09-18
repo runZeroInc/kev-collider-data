@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-17T20:21:46Z
+Generated: 2026-09-18T21:32:58Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -11,8 +11,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Google | Chromium V8 | 41 | 2026-09-09 | 0 | CVE-2026-87491 |
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
 | Adobe | Flash Player | 33 | 2024-09-17 | 5 | CVE-2014-0502 |
+| Linux | Kernel | 31 | 2026-09-18 | 2 | CVE-2026-53266 |
 | Microsoft | Office | 29 | 2026-04-14 | 3 | CVE-2009-0238 |
-| Linux | Kernel | 28 | 2026-08-27 | 2 | CVE-2026-53362 |
 | Microsoft | Win32k | 25 | 2023-06-22 | 11 | CVE-2016-0165 |
 | Adobe | Acrobat and Reader | 21 | 2026-05-20 | 2 | CVE-2009-3459 |
 | Cisco | IOS and IOS XE | 21 | 2025-09-29 | 0 | CVE-2025-20352 |
