@@ -274,6 +274,7 @@
   "modules/auxiliary/gather/freepbx_custom_extension_injection.rb": "2026-01-05T14:55:42.000Z",
   "modules/auxiliary/gather/geoserver_wms_getmap_xxe_file_read.rb": "2025-12-12T14:54:18.000Z",
   "modules/auxiliary/gather/gitlab_authenticated_subgroups_file_read.rb": "2023-06-02T22:06:44.000Z",
+  "modules/auxiliary/gather/gitlab_file_read_cve_2026_85706.rb": "2026-09-16T17:35:33.000Z",
   "modules/auxiliary/gather/gitlab_tags_rss_feed_email_disclosure.rb": "2024-02-10T01:51:45.000Z",
   "modules/auxiliary/gather/gladinet_storage_access_ticket_forge.rb": "2025-12-12T17:20:37.000Z",
   "modules/auxiliary/gather/gladinet_storage_path_traversal_cve_2025_11371.rb": "2026-01-25T09:32:23.000Z",
