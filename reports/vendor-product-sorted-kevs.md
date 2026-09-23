@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-21T20:56:41Z
+Generated: 2026-09-23T16:34:25Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -63,7 +63,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
 | MikroTik | RouterOS | 4 | 2026-09-10 | 0 | CVE-2026-86060 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
-| JetBrains | TeamCity | 4 | 2026-08-05 | 3 | CVE-2026-63077 |
+| JetBrains | TeamCity | 4 | 2026-08-05 | 4 | CVE-2026-63077 |
 | Oracle | E-Business Suite | 4 | 2026-07-15 | 3 | CVE-2026-46817 |
 | SimpleHelp | SimpleHelp | 4 | 2026-06-29 | 3 | CVE-2026-48558 |
 | SolarWinds | Serv-U | 4 | 2026-06-05 | 1 | CVE-2026-28318 |
@@ -132,6 +132,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| Arista | VeloCloud Orchestrator | 2 | 2026-09-22 | 0 | CVE-2026-93952 |
+| Check Point | Multiple Products | 2 | 2026-09-22 | 0 | CVE-2026-93616 |
 | Google | Pixel | 2 | 2026-09-16 | 0 | CVE-2026-58704 |
 | Microsoft | SQL Server | 2 | 2026-08-26 | 1 | CVE-2019-1068 |
 | TrueConf | Server | 2 | 2026-08-20 | 0 | CVE-2026-72530 |
@@ -229,6 +231,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| F5 | BIG-IP APM | 1 | 2026-09-22 | 0 | CVE-2026-94127 |
 | Zyxel | GS1900 Series Switches | 1 | 2026-09-21 | 0 | CVE-2026-7273 |
 | Acronis | Backup | 1 | 2026-09-16 | 0 | CVE-2026-87886 |
 | Cisco | Secure Email Gateway | 1 | 2026-09-14 | 0 | CVE-2026-76461 |
@@ -250,7 +253,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Microsoft | Windows Ancillary Function Driver for WinSock | 1 | 2026-08-11 | 0 | CVE-2026-68820 |
 | Progress | LoadMaster | 1 | 2026-08-07 | 0 | CVE-2026-8037 |
 | IBM | Langflow | 1 | 2026-08-04 | 0 | CVE-2026-9198 |
-| Arista | VeloCloud Orchestrator | 1 | 2026-07-27 | 0 | CVE-2026-16812 |
 | Check Point | SmartConsole | 1 | 2026-07-22 | 0 | CVE-2026-16232 |
 | DD-WRT | DD-WRT | 1 | 2026-07-21 | 0 | CVE-2021-27137 |
 | KNX Association | KNX Protocol Connection Authorization Option 1 | 1 | 2026-07-15 | 0 | CVE-2023-4346 |
