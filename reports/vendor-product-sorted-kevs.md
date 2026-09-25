@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-23T22:01:05Z
+Generated: 2026-09-25T17:58:14Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -59,6 +59,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Apache | Struts | 5 | 2022-03-25 | 1 | CVE-2013-2251 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
+| Adobe | Commerce and Magento Open Source | 4 | 2026-09-24 | 0 | CVE-2026-71362 |
 | ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
 | JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
 | MikroTik | RouterOS | 4 | 2026-09-10 | 0 | CVE-2026-86060 |
@@ -91,7 +92,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
 | Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
 | Citrix | NetScaler | 3 | 2026-09-09 | 0 | CVE-2026-19490 |
-| Adobe | Commerce and Magento Open Source | 3 | 2026-09-08 | 0 | CVE-2026-75650 |
 | BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
 | Ubiquiti | UniFi OS | 3 | 2026-06-23 | 0 | CVE-2026-34910 |
@@ -132,6 +132,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| WSO2 | Multiple Products | 2 | 2026-09-24 | 1 | CVE-2026-5430 |
 | Arista | VeloCloud Orchestrator | 2 | 2026-09-22 | 0 | CVE-2026-93952 |
 | Check Point | Multiple Products | 2 | 2026-09-22 | 0 | CVE-2026-93616 |
 | Google | Pixel | 2 | 2026-09-16 | 0 | CVE-2026-58704 |
@@ -510,7 +511,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | VMware | Spring Cloud Gateway | 1 | 2022-05-16 | 0 | CVE-2022-22947 |
 | OpenSSL | OpenSSL | 1 | 2022-05-04 | 0 | CVE-2014-0160 |
 | Jenkins | Script Security Plugin | 1 | 2022-04-25 | 0 | CVE-2019-1003029 |
-| WSO2 | Multiple Products | 1 | 2022-04-25 | 1 | CVE-2022-29464 |
 | Alcatel | OmniPCX Enterprise | 1 | 2022-04-15 | 0 | CVE-2007-3010 |
 | Crestron | Multiple Products | 1 | 2022-04-15 | 0 | CVE-2019-3929 |
 | InduSoft | Web Studio | 1 | 2022-04-15 | 0 | CVE-2014-0780 |
