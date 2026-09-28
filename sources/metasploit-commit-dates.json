@@ -507,6 +507,7 @@
   "modules/auxiliary/scanner/http/tvt_nvms_traversal.rb": "2020-01-01T09:36:18.000Z",
   "modules/auxiliary/scanner/http/vicidial_multiple_sqli.rb": "2022-06-30T21:26:05.000Z",
   "modules/auxiliary/scanner/http/vicidial_sql_enum_users_pass.rb": "2024-09-11T00:25:31.000Z",
+  "modules/auxiliary/scanner/http/vllm_multimodal_info_leak.rb": "2026-06-21T22:30:30.000Z",
   "modules/auxiliary/scanner/http/wangkongbao_traversal.rb": "2012-07-06T05:54:55.000Z",
   "modules/auxiliary/scanner/http/webdav_internal_ip.rb": "2010-02-01T02:12:30.000Z",
   "modules/auxiliary/scanner/http/webpagetest_traversal.rb": "2012-08-06T08:11:07.000Z",

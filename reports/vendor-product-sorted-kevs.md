@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-25T17:58:14Z
+Generated: 2026-09-28T15:52:13Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -19,7 +19,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Microsoft | Exchange Server | 18 | 2026-04-13 | 14 | CVE-2023-21529 |
 | Synacor | Zimbra Collaboration Suite (ZCS) | 17 | 2026-08-21 | 5 | CVE-2026-73570 |
 | Adobe | ColdFusion | 16 | 2026-07-07 | 3 | CVE-2026-48282 |
-| Microsoft | SharePoint | 14 | 2026-08-18 | 8 | CVE-2026-55040 |
+| Microsoft | SharePoint | 15 | 2026-09-25 | 8 | CVE-2026-65660 |
 | Samsung | Mobile Devices | 13 | 2025-11-10 | 0 | CVE-2025-21042 |
 | Cisco | IOS | 12 | 2026-07-13 | 0 | CVE-2008-4128 |
 | Oracle | WebLogic Server | 12 | 2026-06-01 | 2 | CVE-2024-21182 |
@@ -47,6 +47,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zoho | ManageEngine | 6 | 2023-03-07 | 2 | CVE-2022-28810 |
 | Cisco | IOS XR | 6 | 2022-05-23 | 0 | CVE-2022-20821 |
 | Mozilla | Firefox and Thunderbird | 6 | 2022-05-23 | 0 | CVE-2019-11708 |
+| Citrix | NetScaler | 5 | 2026-09-27 | 0 | CVE-2026-88772 |
+| MikroTik | RouterOS | 5 | 2026-09-25 | 0 | CVE-2026-67279 |
 | N-able | N-central | 5 | 2026-09-08 | 0 | CVE-2026-86218 |
 | SonicWall | SMA1000 Appliances | 5 | 2026-09-02 | 3 | CVE-2026-83549 |
 | Langflow | Langflow | 5 | 2026-07-21 | 1 | CVE-2026-0770 |
@@ -62,7 +64,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Adobe | Commerce and Magento Open Source | 4 | 2026-09-24 | 0 | CVE-2026-71362 |
 | ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
 | JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
-| MikroTik | RouterOS | 4 | 2026-09-10 | 0 | CVE-2026-86060 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
 | JetBrains | TeamCity | 4 | 2026-08-05 | 4 | CVE-2026-63077 |
 | Oracle | E-Business Suite | 4 | 2026-07-15 | 3 | CVE-2026-46817 |
@@ -90,8 +91,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| WordPress | Core | 3 | 2026-09-25 | 0 | CVE-2026-87902 |
 | Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
-| Citrix | NetScaler | 3 | 2026-09-09 | 0 | CVE-2026-19490 |
 | BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
 | Ubiquiti | UniFi OS | 3 | 2026-06-23 | 0 | CVE-2026-34910 |
@@ -140,7 +141,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | TrueConf | Server | 2 | 2026-08-20 | 0 | CVE-2026-72530 |
 | Metabase | Metabase | 2 | 2026-08-11 | 0 | CVE-2026-72898 |
 | Cisco | Secure Firewall Management Center (FMC) | 2 | 2026-07-29 | 2 | CVE-2026-20316 |
-| WordPress | Core | 2 | 2026-07-21 | 0 | CVE-2026-63030 |
 | Fortinet | FortiSandbox | 2 | 2026-07-16 | 0 | CVE-2026-39808 |
 | Cisco | Unified Communications Manager | 2 | 2026-06-25 | 0 | CVE-2026-20230 |
 | LiteSpeed | cPanel Plugin | 2 | 2026-06-15 | 0 | CVE-2026-54420 |
