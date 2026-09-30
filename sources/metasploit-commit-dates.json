@@ -1098,6 +1098,7 @@
   "modules/exploits/linux/local/cve_2026_43284_dirty_frag.rb": "2026-05-14T07:12:16.000Z",
   "modules/exploits/linux/local/cve_2026_43500_dirty_frag.rb": "2026-05-14T07:12:16.000Z",
   "modules/exploits/linux/local/cve_2026_46300_fragnesia.rb": "2026-05-14T11:36:38.000Z",
+  "modules/exploits/linux/local/dirtyclone_cve_2026_43503.rb": "2026-06-28T11:13:38.000Z",
   "modules/exploits/linux/local/docker_cgroup_escape.rb": "2023-11-28T18:44:08.000Z",
   "modules/exploits/linux/local/docker_runc_escape.rb": "2021-04-28T10:46:30.000Z",
   "modules/exploits/linux/local/exim4_deliver_message_priv_esc.rb": "2019-07-04T14:02:03.000Z",
