@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-09-30T20:28:02Z
+Generated: 2026-10-01T14:33:02Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -39,6 +39,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7 | 2024-10-24 | 3 | CVE-2024-20481 |
 | Oracle | Java SE | 7 | 2022-03-28 | 4 | CVE-2013-2465 |
 | Ivanti | Pulse Connect Secure | 7 | 2021-11-03 | 2 | CVE-2021-22900 |
+| Cisco | Catalyst SD-WAN Manager | 6 | 2026-09-30 | 0 | CVE-2026-76504 |
 | Fortinet | Multiple Products | 6 | 2026-09-09 | 1 | CVE-2025-25249 |
 | Apache | Tomcat | 6 | 2026-08-04 | 1 | CVE-2026-34486 |
 | Android | Framework | 6 | 2026-06-02 | 0 | CVE-2025-48595 |
@@ -52,7 +53,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | N-able | N-central | 5 | 2026-09-08 | 0 | CVE-2026-86218 |
 | SonicWall | SMA1000 Appliances | 5 | 2026-09-02 | 3 | CVE-2026-83549 |
 | Langflow | Langflow | 5 | 2026-07-21 | 1 | CVE-2026-0770 |
-| Cisco | Catalyst SD-WAN Manager | 5 | 2026-06-15 | 0 | CVE-2026-20262 |
 | Microsoft | Defender | 5 | 2026-05-20 | 2 | CVE-2026-45498 |
 | Ivanti | Endpoint Manager (EPM) | 5 | 2026-03-09 | 0 | CVE-2026-1603 |
 | SolarWinds | Web Help Desk | 5 | 2026-03-09 | 1 | CVE-2025-26399 |
