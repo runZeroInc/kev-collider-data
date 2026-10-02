@@ -599,6 +599,7 @@
   "modules/auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess.rb": "2012-09-27T22:29:12.000Z",
   "modules/auxiliary/scanner/scada/moxa_discover.rb": "2017-03-22T14:49:26.000Z",
   "modules/auxiliary/scanner/scada/sielco_winlog_fileaccess.rb": "2012-07-12T11:12:31.000Z",
+  "modules/auxiliary/scanner/smb/cve_2000_0979.rb": "2026-03-06T13:56:52.000Z",
   "modules/auxiliary/scanner/smb/psexec_loggedin_users.rb": "2012-12-04T23:32:42.000Z",
   "modules/auxiliary/scanner/smb/smb_enum_gpp.rb": "2015-07-28T19:21:33.000Z",
   "modules/auxiliary/scanner/smb/smb_login.rb": "2009-01-11T05:25:54.000Z",

@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-01T14:33:02Z
+Generated: 2026-10-02T15:29:04Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -232,6 +232,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Fortinet | FortiMail | 1 | 2026-10-01 | 0 | CVE-2026-104286 |
 | F5 | BIG-IP APM | 1 | 2026-09-22 | 0 | CVE-2026-94127 |
 | Zyxel | GS1900 Series Switches | 1 | 2026-09-21 | 0 | CVE-2026-7273 |
 | Acronis | Backup | 1 | 2026-09-16 | 0 | CVE-2026-87886 |
