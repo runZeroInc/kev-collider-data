@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-02T15:29:04Z
+Generated: 2026-10-05T15:42:40Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -39,6 +39,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7 | 2024-10-24 | 3 | CVE-2024-20481 |
 | Oracle | Java SE | 7 | 2022-03-28 | 4 | CVE-2013-2465 |
 | Ivanti | Pulse Connect Secure | 7 | 2021-11-03 | 2 | CVE-2021-22900 |
+| Citrix | NetScaler | 6 | 2026-10-04 | 0 | CVE-2026-88779 |
 | Cisco | Catalyst SD-WAN Manager | 6 | 2026-09-30 | 0 | CVE-2026-76504 |
 | Fortinet | Multiple Products | 6 | 2026-09-09 | 1 | CVE-2025-25249 |
 | Apache | Tomcat | 6 | 2026-08-04 | 1 | CVE-2026-34486 |
@@ -48,7 +49,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zoho | ManageEngine | 6 | 2023-03-07 | 2 | CVE-2022-28810 |
 | Cisco | IOS XR | 6 | 2022-05-23 | 0 | CVE-2022-20821 |
 | Mozilla | Firefox and Thunderbird | 6 | 2022-05-23 | 0 | CVE-2019-11708 |
-| Citrix | NetScaler | 5 | 2026-09-27 | 0 | CVE-2026-88772 |
 | MikroTik | RouterOS | 5 | 2026-09-25 | 0 | CVE-2026-67279 |
 | N-able | N-central | 5 | 2026-09-08 | 0 | CVE-2026-86218 |
 | SonicWall | SMA1000 Appliances | 5 | 2026-09-02 | 3 | CVE-2026-83549 |
@@ -133,6 +133,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| Zammad GmbH | Zammad | 2 | 2026-10-02 | 0 | CVE-2026-102490 |
 | WSO2 | Multiple Products | 2 | 2026-09-24 | 1 | CVE-2026-5430 |
 | Arista | VeloCloud Orchestrator | 2 | 2026-09-22 | 0 | CVE-2026-93952 |
 | Check Point | Multiple Products | 2 | 2026-09-22 | 0 | CVE-2026-93616 |
