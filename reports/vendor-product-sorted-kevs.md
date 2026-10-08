@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-08T13:37:08Z
+Generated: 2026-10-08T19:09:08Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -39,6 +39,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7 | 2024-10-24 | 3 | CVE-2024-20481 |
 | Oracle | Java SE | 7 | 2022-03-28 | 4 | CVE-2013-2465 |
 | Ivanti | Pulse Connect Secure | 7 | 2021-11-03 | 2 | CVE-2021-22900 |
+| Apache | Struts | 6 | 2026-10-08 | 1 | CVE-2016-3081 |
 | Citrix | NetScaler | 6 | 2026-10-04 | 0 | CVE-2026-88779 |
 | Cisco | Catalyst SD-WAN Manager | 6 | 2026-09-30 | 0 | CVE-2026-76504 |
 | Fortinet | Multiple Products | 6 | 2026-09-09 | 1 | CVE-2025-25249 |
@@ -59,7 +60,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Apple | iOS and iPadOS | 5 | 2026-03-05 | 0 | CVE-2023-41974 |
 | Zyxel | Multiple Firewalls | 5 | 2024-12-03 | 1 | CVE-2024-11667 |
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
-| Apache | Struts | 5 | 2022-03-25 | 1 | CVE-2013-2251 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
 | Adobe | Commerce and Magento Open Source | 4 | 2026-09-24 | 0 | CVE-2026-71362 |
 | ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
@@ -233,6 +233,10 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| ISC | BIND | 1 | 2026-10-08 | 0 | CVE-2015-5477 |
+| ONLYOFFICE | Docs | 1 | 2026-10-08 | 0 | CVE-2021-3199 |
+| ProFTPD | ProFTPD | 1 | 2026-10-08 | 0 | CVE-2015-3306 |
+| Strapi | Strapi | 1 | 2026-10-08 | 0 | CVE-2023-22894 |
 | Fortinet | FortiMail | 1 | 2026-10-01 | 0 | CVE-2026-104286 |
 | F5 | BIG-IP APM | 1 | 2026-09-22 | 0 | CVE-2026-94127 |
 | Zyxel | GS1900 Series Switches | 1 | 2026-09-21 | 0 | CVE-2026-7273 |
