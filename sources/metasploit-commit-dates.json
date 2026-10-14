@@ -238,6 +238,7 @@
   "modules/auxiliary/dos/wireshark/ldap.rb": "2008-07-22T23:49:05.000Z",
   "modules/auxiliary/fileformat/badpdf.rb": "2018-06-07T15:38:22.000Z",
   "modules/auxiliary/fileformat/odt_badodt.rb": "2018-06-06T16:26:20.000Z",
+  "modules/auxiliary/gather/4gaboards_users_info_disclosure_cve_2026_53959.rb": "2026-08-26T17:06:29.000Z",
   "modules/auxiliary/gather/acronis_cyber_protect_machine_info_disclosure.rb": "2024-10-23T08:45:32.000Z",
   "modules/auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360.rb": "2023-04-14T14:52:13.000Z",
   "modules/auxiliary/gather/advantech_webaccess_creds.rb": "2017-01-26T20:53:59.000Z",

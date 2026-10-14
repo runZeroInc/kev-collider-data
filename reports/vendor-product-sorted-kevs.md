@@ -1,12 +1,12 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-09T15:49:48Z
+Generated: 2026-10-14T14:56:30Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
 | Vendor | Product | KEV Count | Latest Date Added | Ransomware KEVs | Most Recently Added CVE |
 | --- | --- | ---: | --- | ---: | --- |
-| Microsoft | Windows | 174 | 2026-09-08 | 49 | CVE-2026-85880 |
+| Microsoft | Windows | 175 | 2026-10-13 | 49 | CVE-2026-96951 |
 | Apple | Multiple Products | 54 | 2026-09-29 | 0 | CVE-2026-86950 |
 | Google | Chromium V8 | 41 | 2026-09-09 | 0 | CVE-2026-87491 |
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
@@ -233,6 +233,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Ivanti | Connect Secure | 1 | 2026-10-13 | 0 | CVE-2026-104935 |
 | ISC | BIND | 1 | 2026-10-08 | 0 | CVE-2015-5477 |
 | ONLYOFFICE | Docs | 1 | 2026-10-08 | 0 | CVE-2021-3199 |
 | ProFTPD | ProFTPD | 1 | 2026-10-08 | 0 | CVE-2015-3306 |
