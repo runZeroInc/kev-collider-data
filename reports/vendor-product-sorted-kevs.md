@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-14T18:11:29Z
+Generated: 2026-10-15T18:33:14Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -20,10 +20,10 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Synacor | Zimbra Collaboration Suite (ZCS) | 17 | 2026-08-21 | 5 | CVE-2026-73570 |
 | Adobe | ColdFusion | 16 | 2026-07-07 | 3 | CVE-2026-48282 |
 | Microsoft | SharePoint | 15 | 2026-09-25 | 8 | CVE-2026-65660 |
+| Palo Alto Networks | PAN-OS | 13 | 2026-10-14 | 6 | CVE-2026-0322 |
 | Samsung | Mobile Devices | 13 | 2025-11-10 | 0 | CVE-2025-21042 |
 | Cisco | IOS | 12 | 2026-07-13 | 0 | CVE-2008-4128 |
 | Oracle | WebLogic Server | 12 | 2026-06-01 | 2 | CVE-2024-21182 |
-| Palo Alto Networks | PAN-OS | 12 | 2026-05-29 | 6 | CVE-2026-0257 |
 | Qualcomm | Multiple Chipsets | 11 | 2026-03-03 | 0 | CVE-2026-21385 |
 | Apple | iOS, iPadOS, and macOS | 11 | 2025-08-21 | 0 | CVE-2025-43300 |
 | SAP | NetWeaver | 10 | 2025-05-15 | 2 | CVE-2025-42999 |
@@ -133,6 +133,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| Ahsay | AhsayCBS | 2 | 2026-10-14 | 0 | CVE-2026-105134 |
+| Cisco | Secure Email Gateway | 2 | 2026-10-14 | 0 | CVE-2026-76519 |
 | Zammad GmbH | Zammad | 2 | 2026-10-02 | 0 | CVE-2026-102490 |
 | WSO2 | Multiple Products | 2 | 2026-09-24 | 1 | CVE-2026-5430 |
 | Arista | VeloCloud Orchestrator | 2 | 2026-09-22 | 0 | CVE-2026-93952 |
@@ -233,6 +235,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Atlassian | Multiple Products | 1 | 2026-10-15 | 0 | CVE-2026-21589 |
 | Ivanti | Connect Secure | 1 | 2026-10-13 | 0 | CVE-2026-104935 |
 | ISC | BIND | 1 | 2026-10-08 | 0 | CVE-2015-5477 |
 | ONLYOFFICE | Docs | 1 | 2026-10-08 | 0 | CVE-2021-3199 |
@@ -242,7 +245,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | F5 | BIG-IP APM | 1 | 2026-09-22 | 0 | CVE-2026-94127 |
 | Zyxel | GS1900 Series Switches | 1 | 2026-09-21 | 0 | CVE-2026-7273 |
 | Acronis | Backup | 1 | 2026-09-16 | 0 | CVE-2026-87886 |
-| Cisco | Secure Email Gateway | 1 | 2026-09-14 | 0 | CVE-2026-76461 |
 | GitLab | Community Edition and Enterprise Edition | 1 | 2026-09-11 | 0 | CVE-2026-85706 |
 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 1 | 2026-09-09 | 0 | CVE-2026-20079 |
 | Kestra | Kestra OSS | 1 | 2026-09-02 | 0 | CVE-2026-49869 |
