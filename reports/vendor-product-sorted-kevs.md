@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-16T14:40:49Z
+Generated: 2026-10-19T15:57:26Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -31,6 +31,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | VMware | vCenter Server | 9 | 2024-11-20 | 3 | CVE-2024-38813 |
 | Apple | macOS | 8 | 2026-08-18 | 0 | CVE-2026-65400 |
 | Apple | iOS | 8 | 2022-12-14 | 0 | CVE-2022-42856 |
+| Fortinet | Multiple Products | 7 | 2026-10-16 | 1 | CVE-2025-61624 |
 | Citrix | NetScaler ADC and NetScaler Gateway | 7 | 2026-08-26 | 3 | CVE-2026-8452 |
 | Ivanti | Endpoint Manager Mobile (EPMM) | 7 | 2026-05-07 | 1 | CVE-2026-6973 |
 | Roundcube | Webmail | 7 | 2026-02-20 | 0 | CVE-2025-68461 |
@@ -42,7 +43,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Apache | Struts | 6 | 2026-10-08 | 1 | CVE-2016-3081 |
 | Citrix | NetScaler | 6 | 2026-10-04 | 0 | CVE-2026-88779 |
 | Cisco | Catalyst SD-WAN Manager | 6 | 2026-09-30 | 0 | CVE-2026-76504 |
-| Fortinet | Multiple Products | 6 | 2026-09-09 | 1 | CVE-2025-25249 |
 | Apache | Tomcat | 6 | 2026-08-04 | 1 | CVE-2026-34486 |
 | Android | Framework | 6 | 2026-06-02 | 0 | CVE-2025-48595 |
 | Oracle | Fusion Middleware | 6 | 2025-11-21 | 1 | CVE-2025-61757 |
@@ -235,6 +235,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| BeyondTrust | Remote Support | 1 | 2026-10-16 | 0 | CVE-2026-102764 |
 | Atlassian | Multiple Products | 1 | 2026-10-15 | 0 | CVE-2026-21589 |
 | Ivanti | Connect Secure | 1 | 2026-10-13 | 0 | CVE-2026-104935 |
 | ISC | BIND | 1 | 2026-10-08 | 0 | CVE-2015-5477 |

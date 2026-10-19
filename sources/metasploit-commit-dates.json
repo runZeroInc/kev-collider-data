@@ -1434,6 +1434,7 @@
   "modules/exploits/multi/http/joomla_com_jce_unauth_file_upload_rce.rb": "2026-06-28T18:33:30.000Z",
   "modules/exploits/multi/http/joomla_http_header_rce.rb": "2015-12-15T16:37:45.000Z",
   "modules/exploits/multi/http/kordil_edms_upload_exec.rb": "2013-02-25T19:29:27.000Z",
+  "modules/exploits/multi/http/langflow_auth_command_injection_cve_2026_93674.rb": "2026-09-22T16:29:04.000Z",
   "modules/exploits/multi/http/langflow_auth_rce_cve_2026_18729.rb": "2026-08-30T02:24:09.000Z",
   "modules/exploits/multi/http/langflow_auth_rce_cve_2026_19295.rb": "2026-08-27T21:12:32.000Z",
   "modules/exploits/multi/http/langflow_auth_rce_cve_2026_7873.rb": "2026-09-05T03:59:21.000Z",
