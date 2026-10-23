@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-20T20:52:14Z
+Generated: 2026-10-23T21:06:20Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -50,6 +50,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zoho | ManageEngine | 6 | 2023-03-07 | 2 | CVE-2022-28810 |
 | Cisco | IOS XR | 6 | 2022-05-23 | 0 | CVE-2022-20821 |
 | Mozilla | Firefox and Thunderbird | 6 | 2022-05-23 | 0 | CVE-2019-11708 |
+| Plex | Media Server | 5 | 2026-10-20 | 0 | CVE-2026-96656 |
 | MikroTik | RouterOS | 5 | 2026-09-25 | 0 | CVE-2026-67279 |
 | N-able | N-central | 5 | 2026-09-08 | 0 | CVE-2026-86218 |
 | SonicWall | SMA1000 Appliances | 5 | 2026-09-02 | 3 | CVE-2026-83549 |
@@ -91,6 +92,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| Arista | VeloCloud Orchestrator | 3 | 2026-10-23 | 0 | CVE-2026-114625 |
 | WordPress | Core | 3 | 2026-09-25 | 0 | CVE-2026-87902 |
 | Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
 | BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
@@ -137,7 +139,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Secure Email Gateway | 2 | 2026-10-14 | 0 | CVE-2026-76519 |
 | Zammad GmbH | Zammad | 2 | 2026-10-02 | 0 | CVE-2026-102490 |
 | WSO2 | Multiple Products | 2 | 2026-09-24 | 1 | CVE-2026-5430 |
-| Arista | VeloCloud Orchestrator | 2 | 2026-09-22 | 0 | CVE-2026-93952 |
 | Check Point | Multiple Products | 2 | 2026-09-22 | 0 | CVE-2026-93616 |
 | Google | Pixel | 2 | 2026-09-16 | 0 | CVE-2026-58704 |
 | Microsoft | SQL Server | 2 | 2026-08-26 | 1 | CVE-2019-1068 |
@@ -235,6 +236,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| EG Secure Solutions | SiteGuard Server Edition | 1 | 2026-10-20 | 0 | CVE-2026-106931 |
+| Siemens | Software Center | 1 | 2026-10-20 | 0 | CVE-2026-110936 |
 | BeyondTrust | Remote Support | 1 | 2026-10-16 | 0 | CVE-2026-102764 |
 | Atlassian | Multiple Products | 1 | 2026-10-15 | 0 | CVE-2026-21589 |
 | Ivanti | Connect Secure | 1 | 2026-10-13 | 0 | CVE-2026-104935 |
@@ -477,7 +480,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Novi Survey | Novi Survey | 1 | 2023-04-13 | 0 | CVE-2023-29492 |
 | Google | Chromium Network Service | 1 | 2023-03-30 | 0 | CVE-2022-3038 |
 | Samba | Samba | 1 | 2023-03-30 | 1 | CVE-2017-7494 |
-| Plex | Media Server | 1 | 2023-03-10 | 0 | CVE-2020-5741 |
 | XStream | XStream | 1 | 2023-03-10 | 0 | CVE-2021-39144 |
 | Apache | Spark | 1 | 2023-03-07 | 0 | CVE-2022-33891 |
 | Teclib | GLPI | 1 | 2023-03-07 | 0 | CVE-2022-35914 |
