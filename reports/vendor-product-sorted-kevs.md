@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-23T21:06:20Z
+Generated: 2026-10-27T14:28:08Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -92,6 +92,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| PHP Group | PHP | 3 | 2026-10-26 | 1 | CVE-2026-109619 |
 | Arista | VeloCloud Orchestrator | 3 | 2026-10-23 | 0 | CVE-2026-114625 |
 | WordPress | Core | 3 | 2026-09-25 | 0 | CVE-2026-87902 |
 | Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
@@ -236,6 +237,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Collabora | Collabora Online – Built-in CODE Server | 1 | 2026-10-23 | 0 | CVE-2026-110447 |
 | EG Secure Solutions | SiteGuard Server Edition | 1 | 2026-10-20 | 0 | CVE-2026-106931 |
 | Siemens | Software Center | 1 | 2026-10-20 | 0 | CVE-2026-110936 |
 | BeyondTrust | Remote Support | 1 | 2026-10-16 | 0 | CVE-2026-102764 |
@@ -415,7 +417,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | NX-OS | 1 | 2024-07-02 | 0 | CVE-2024-20399 |
 | OSGeo | JAI-EXT | 1 | 2024-06-26 | 0 | CVE-2022-24816 |
 | Progress | Telerik Report Server | 1 | 2024-06-13 | 0 | CVE-2024-4358 |
-| PHP Group | PHP | 1 | 2024-06-12 | 1 | CVE-2024-4577 |
 | Check Point | Quantum Security Gateways | 1 | 2024-05-30 | 1 | CVE-2024-24919 |
 | Justice AV Solutions | Viewer | 1 | 2024-05-29 | 0 | CVE-2024-4978 |
 | Apache | Flink | 1 | 2024-05-23 | 0 | CVE-2020-17519 |
