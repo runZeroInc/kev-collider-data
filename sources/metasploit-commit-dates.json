@@ -1835,6 +1835,7 @@
   "modules/exploits/unix/misc/polycom_hdx_traceroute_exec.rb": "2017-11-15T15:40:57.000Z",
   "modules/exploits/unix/misc/spamassassin_exec.rb": "2008-07-19T15:40:30.000Z",
   "modules/exploits/unix/misc/zabbix_agent_exec.rb": "2009-12-14T18:24:24.000Z",
+  "modules/exploits/unix/smtp/cisco_secure_email_gateway_smime_sqli_rce.rb": "2026-10-15T11:18:56.000Z",
   "modules/exploits/unix/smtp/clamav_milter_blackhole.rb": "2008-03-17T11:51:30.000Z",
   "modules/exploits/unix/smtp/exim4_string_format.rb": "2010-12-10T19:34:23.000Z",
   "modules/exploits/unix/smtp/opensmtpd_mail_from_rce.rb": "2020-01-29T09:53:37.000Z",

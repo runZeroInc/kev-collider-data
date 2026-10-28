@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-27T14:28:08Z
+Generated: 2026-10-28T12:08:31Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -50,6 +50,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zoho | ManageEngine | 6 | 2023-03-07 | 2 | CVE-2022-28810 |
 | Cisco | IOS XR | 6 | 2022-05-23 | 0 | CVE-2022-20821 |
 | Mozilla | Firefox and Thunderbird | 6 | 2022-05-23 | 0 | CVE-2019-11708 |
+| Adobe | Commerce and Magento Open Source | 5 | 2026-10-27 | 0 | CVE-2026-48356 |
 | Plex | Media Server | 5 | 2026-10-20 | 0 | CVE-2026-96656 |
 | MikroTik | RouterOS | 5 | 2026-09-25 | 0 | CVE-2026-67279 |
 | N-able | N-central | 5 | 2026-09-08 | 0 | CVE-2026-86218 |
@@ -62,7 +63,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zyxel | Multiple Firewalls | 5 | 2024-12-03 | 1 | CVE-2024-11667 |
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
-| Adobe | Commerce and Magento Open Source | 4 | 2026-09-24 | 0 | CVE-2026-71362 |
 | ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
 | JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
@@ -237,6 +237,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Google | Brotli | 1 | 2026-10-27 | 0 | CVE-2026-111497 |
 | Collabora | Collabora Online – Built-in CODE Server | 1 | 2026-10-23 | 0 | CVE-2026-110447 |
 | EG Secure Solutions | SiteGuard Server Edition | 1 | 2026-10-20 | 0 | CVE-2026-106931 |
 | Siemens | Software Center | 1 | 2026-10-20 | 0 | CVE-2026-110936 |
