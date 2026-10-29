@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-28T12:08:31Z
+Generated: 2026-10-29T16:51:34Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -11,7 +11,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Google | Chromium V8 | 41 | 2026-09-09 | 0 | CVE-2026-87491 |
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
 | Adobe | Flash Player | 33 | 2024-09-17 | 5 | CVE-2014-0502 |
-| Linux | Kernel | 31 | 2026-09-18 | 2 | CVE-2026-53266 |
+| Linux | Kernel | 32 | 2026-10-28 | 2 | CVE-2026-46300 |
 | Microsoft | Office | 29 | 2026-04-14 | 3 | CVE-2009-0238 |
 | Microsoft | Win32k | 25 | 2023-06-22 | 11 | CVE-2016-0165 |
 | Adobe | Acrobat and Reader | 21 | 2026-05-20 | 2 | CVE-2009-3459 |
@@ -237,6 +237,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Broadcom | VMware ESX | 1 | 2026-10-28 | 0 | CVE-2026-41709 |
 | Google | Brotli | 1 | 2026-10-27 | 0 | CVE-2026-111497 |
 | Collabora | Collabora Online – Built-in CODE Server | 1 | 2026-10-23 | 0 | CVE-2026-110447 |
 | EG Secure Solutions | SiteGuard Server Edition | 1 | 2026-10-20 | 0 | CVE-2026-106931 |

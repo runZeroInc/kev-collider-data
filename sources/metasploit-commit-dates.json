@@ -26,6 +26,7 @@
   "modules/auxiliary/admin/http/cnpilot_r_fpt.rb": "2017-12-18T22:32:55.000Z",
   "modules/auxiliary/admin/http/contentkeeper_fileaccess.rb": "2011-04-10T15:27:17.000Z",
   "modules/auxiliary/admin/http/dlink_dir_300_600_exec_noauth.rb": "2013-02-04T07:44:12.000Z",
+  "modules/auxiliary/admin/http/flowise_auth_bypass_cve_2025_58434.rb": "2026-10-27T13:26:33.000Z",
   "modules/auxiliary/admin/http/foreman_openstack_satellite_priv_esc.rb": "2013-07-22T18:24:25.000Z",
   "modules/auxiliary/admin/http/fortinet_fortiweb_create_admin.rb": "2025-11-14T12:02:10.000Z",
   "modules/auxiliary/admin/http/fortra_filecatalyst_workflow_sqli.rb": "2024-08-08T16:52:38.000Z",
