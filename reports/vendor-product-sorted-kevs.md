@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-10-29T16:51:34Z
+Generated: 2026-11-04T15:32:17Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -92,6 +92,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| Ivanti | Connect Secure | 3 | 2026-10-30 | 0 | CVE-2026-118527 |
 | PHP Group | PHP | 3 | 2026-10-26 | 1 | CVE-2026-109619 |
 | Arista | VeloCloud Orchestrator | 3 | 2026-10-23 | 0 | CVE-2026-114625 |
 | WordPress | Core | 3 | 2026-09-25 | 0 | CVE-2026-87902 |
@@ -136,6 +137,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| GitLab | Community Edition and Enterprise Edition | 2 | 2026-10-29 | 0 | CVE-2026-97229 |
 | Ahsay | AhsayCBS | 2 | 2026-10-14 | 0 | CVE-2026-105134 |
 | Cisco | Secure Email Gateway | 2 | 2026-10-14 | 0 | CVE-2026-76519 |
 | Zammad GmbH | Zammad | 2 | 2026-10-02 | 0 | CVE-2026-102490 |
@@ -237,6 +239,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| WordPress | WordPress Core | 1 | 2026-11-03 | 0 | CVE-2026-119977 |
+| Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 1 | 2026-10-29 | 0 | CVE-2026-76418 |
 | Broadcom | VMware ESX | 1 | 2026-10-28 | 0 | CVE-2026-41709 |
 | Google | Brotli | 1 | 2026-10-27 | 0 | CVE-2026-111497 |
 | Collabora | Collabora Online – Built-in CODE Server | 1 | 2026-10-23 | 0 | CVE-2026-110447 |
@@ -244,7 +248,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Siemens | Software Center | 1 | 2026-10-20 | 0 | CVE-2026-110936 |
 | BeyondTrust | Remote Support | 1 | 2026-10-16 | 0 | CVE-2026-102764 |
 | Atlassian | Multiple Products | 1 | 2026-10-15 | 0 | CVE-2026-21589 |
-| Ivanti | Connect Secure | 1 | 2026-10-13 | 0 | CVE-2026-104935 |
 | ISC | BIND | 1 | 2026-10-08 | 0 | CVE-2015-5477 |
 | ONLYOFFICE | Docs | 1 | 2026-10-08 | 0 | CVE-2021-3199 |
 | ProFTPD | ProFTPD | 1 | 2026-10-08 | 0 | CVE-2015-3306 |
@@ -253,7 +256,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | F5 | BIG-IP APM | 1 | 2026-09-22 | 0 | CVE-2026-94127 |
 | Zyxel | GS1900 Series Switches | 1 | 2026-09-21 | 0 | CVE-2026-7273 |
 | Acronis | Backup | 1 | 2026-09-16 | 0 | CVE-2026-87886 |
-| GitLab | Community Edition and Enterprise Edition | 1 | 2026-09-11 | 0 | CVE-2026-85706 |
 | Cisco | Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management | 1 | 2026-09-09 | 0 | CVE-2026-20079 |
 | Kestra | Kestra OSS | 1 | 2026-09-02 | 0 | CVE-2026-49869 |
 | Kludex | Starlette | 1 | 2026-09-02 | 0 | CVE-2026-48710 |
