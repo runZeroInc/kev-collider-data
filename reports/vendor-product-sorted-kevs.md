@@ -1,13 +1,13 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-04T15:32:17Z
+Generated: 2026-11-05T19:09:27Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
 | Vendor | Product | KEV Count | Latest Date Added | Ransomware KEVs | Most Recently Added CVE |
 | --- | --- | ---: | --- | ---: | --- |
 | Microsoft | Windows | 175 | 2026-10-13 | 49 | CVE-2026-96951 |
-| Apple | Multiple Products | 54 | 2026-09-29 | 0 | CVE-2026-86950 |
+| Apple | Multiple Products | 55 | 2026-11-04 | 0 | CVE-2024-27834 |
 | Google | Chromium V8 | 41 | 2026-09-09 | 0 | CVE-2026-87491 |
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
 | Adobe | Flash Player | 33 | 2024-09-17 | 5 | CVE-2014-0502 |
