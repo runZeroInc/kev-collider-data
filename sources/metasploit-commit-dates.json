@@ -1504,6 +1504,7 @@
   "modules/exploits/multi/http/opencats_installer_rce.rb": "2026-07-01T07:47:50.000Z",
   "modules/exploits/multi/http/openfire_auth_bypass.rb": "2012-06-24T11:35:38.000Z",
   "modules/exploits/multi/http/openfire_auth_bypass_rce_cve_2023_32315.rb": "2023-07-08T09:48:17.000Z",
+  "modules/exploits/multi/http/openfire_deleted_admin_rce_cve_2024_25420.rb": "2026-10-22T19:48:04.000Z",
   "modules/exploits/multi/http/openmrs_deserialization.rb": "2019-11-05T17:27:35.000Z",
   "modules/exploits/multi/http/openx_backdoor_php.rb": "2013-08-07T22:24:47.000Z",
   "modules/exploits/multi/http/opmanager_socialit_file_upload.rb": "2014-09-27T18:33:49.000Z",
