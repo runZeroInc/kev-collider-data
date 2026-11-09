@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-06T19:12:28Z
+Generated: 2026-11-09T15:11:07Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -239,6 +239,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| SonicWall | SonicOS SSLVPN | 1 | 2026-11-06 | 0 | CVE-2026-19868 |
 | WordPress | WordPress Core | 1 | 2026-11-03 | 0 | CVE-2026-119977 |
 | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 1 | 2026-10-29 | 0 | CVE-2026-76418 |
 | Broadcom | VMware ESX | 1 | 2026-10-28 | 0 | CVE-2026-41709 |
