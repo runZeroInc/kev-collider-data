@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-10T15:46:58Z
+Generated: 2026-11-10T22:07:27Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -12,7 +12,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Microsoft | Internet Explorer | 36 | 2026-05-20 | 6 | CVE-2010-0806 |
 | Adobe | Flash Player | 33 | 2024-09-17 | 5 | CVE-2014-0502 |
 | Linux | Kernel | 32 | 2026-10-28 | 2 | CVE-2026-46300 |
-| Microsoft | Office | 29 | 2026-04-14 | 3 | CVE-2009-0238 |
+| Microsoft | Office | 30 | 2026-11-10 | 3 | CVE-2026-124194 |
 | Microsoft | Win32k | 25 | 2023-06-22 | 11 | CVE-2016-0165 |
 | Adobe | Acrobat and Reader | 21 | 2026-05-20 | 2 | CVE-2009-3459 |
 | Cisco | IOS and IOS XE | 21 | 2025-09-29 | 0 | CVE-2025-20352 |
@@ -29,13 +29,13 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | SAP | NetWeaver | 10 | 2025-05-15 | 2 | CVE-2025-42999 |
 | Fortinet | FortiOS | 9 | 2026-07-27 | 6 | CVE-2025-68686 |
 | VMware | vCenter Server | 9 | 2024-11-20 | 3 | CVE-2024-38813 |
+| Google | Chromium | 8 | 2026-11-10 | 0 | CVE-2026-125350 |
 | Apple | macOS | 8 | 2026-08-18 | 0 | CVE-2026-65400 |
 | Apple | iOS | 8 | 2022-12-14 | 0 | CVE-2022-42856 |
 | Fortinet | Multiple Products | 7 | 2026-10-16 | 1 | CVE-2025-61624 |
 | Citrix | NetScaler ADC and NetScaler Gateway | 7 | 2026-08-26 | 3 | CVE-2026-8452 |
 | Ivanti | Endpoint Manager Mobile (EPMM) | 7 | 2026-05-07 | 1 | CVE-2026-6973 |
 | Roundcube | Webmail | 7 | 2026-02-20 | 0 | CVE-2025-68461 |
-| Google | Chromium | 7 | 2026-02-17 | 0 | CVE-2026-2441 |
 | Juniper | Junos OS | 7 | 2025-03-13 | 0 | CVE-2025-21590 |
 | Cisco | Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) | 7 | 2024-10-24 | 3 | CVE-2024-20481 |
 | Oracle | Java SE | 7 | 2022-03-28 | 4 | CVE-2013-2465 |
@@ -240,6 +240,10 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Barracuda Networks | Barracuda Email Security Gateway (ESG) | 1 | 2026-11-10 | 0 | CVE-2026-116606 |
+| Barracuda Networks | Multiple Products | 1 | 2026-11-10 | 0 | CVE-2026-111560 |
+| Cisco | BroadWorks | 1 | 2026-11-10 | 0 | CVE-2026-20320 |
+| Openwave Messaging Limited | Webtop Media Transcoder | 1 | 2026-11-10 | 0 | CVE-2026-111793 |
 | GPUStack | GPUStack | 1 | 2026-11-09 | 0 | CVE-2026-102895 |
 | OpenBSD | OpenSSH | 1 | 2026-11-09 | 0 | CVE-2026-123158 |
 | SignalWire | FreeSwitch | 1 | 2026-11-09 | 0 | CVE-2026-116779 |
