@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-09T23:08:06Z
+Generated: 2026-11-10T15:46:58Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -137,6 +137,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| IBM | Aspera Faspex | 2 | 2026-11-09 | 1 | CVE-2026-123218 |
 | GitLab | Community Edition and Enterprise Edition | 2 | 2026-10-29 | 0 | CVE-2026-97229 |
 | Ahsay | AhsayCBS | 2 | 2026-10-14 | 0 | CVE-2026-105134 |
 | Cisco | Secure Email Gateway | 2 | 2026-10-14 | 0 | CVE-2026-76519 |
@@ -493,7 +494,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Apache | Spark | 1 | 2023-03-07 | 0 | CVE-2022-33891 |
 | Teclib | GLPI | 1 | 2023-03-07 | 0 | CVE-2022-35914 |
 | ZK Framework | AuUploader | 1 | 2023-02-27 | 1 | CVE-2022-36537 |
-| IBM | Aspera Faspex | 1 | 2023-02-21 | 1 | CVE-2022-47986 |
 | Cacti | Cacti | 1 | 2023-02-16 | 0 | CVE-2022-46169 |
 | Intel | Ethernet Diagnostics Driver for Windows | 1 | 2023-02-10 | 1 | CVE-2015-2291 |
 | TerraMaster | TerraMaster OS | 1 | 2023-02-10 | 1 | CVE-2022-24990 |
