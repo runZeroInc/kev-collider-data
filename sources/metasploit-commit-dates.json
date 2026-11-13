@@ -94,6 +94,7 @@
   "modules/auxiliary/admin/http/wp_post_smtp_acct_takeover.rb": "2024-10-29T20:01:45.000Z",
   "modules/auxiliary/admin/http/wp_symposium_sql_injection.rb": "2016-11-17T14:04:53.000Z",
   "modules/auxiliary/admin/http/wp_wplms_privilege_escalation.rb": "2015-02-18T15:08:25.000Z",
+  "modules/auxiliary/admin/http/zimbra_email_impersonation.rb": "2026-10-29T11:31:08.000Z",
   "modules/auxiliary/admin/kerberos/ms14_068_kerberos_checksum.rb": "2014-12-22T18:35:15.000Z",
   "modules/auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass.rb": "2020-04-16T12:00:08.000Z",
   "modules/auxiliary/admin/maxdb/maxdb_cons_exec.rb": "2008-01-20T22:52:05.000Z",
