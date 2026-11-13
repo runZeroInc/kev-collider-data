@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-13T17:33:26Z
+Generated: 2026-11-13T20:18:09Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -92,6 +92,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Accellion | FTA | 4 | 2021-11-03 | 4 | CVE-2021-27104 |
 | Citrix | Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance | 4 | 2021-11-03 | 1 | CVE-2020-8196 |
 | Microsoft | Open Management Infrastructure (OMI) | 4 | 2021-11-03 | 1 | CVE-2021-38649 |
+| Check Point | Multiple Products | 3 | 2026-11-13 | 0 | CVE-2026-123039 |
 | Ivanti | Connect Secure | 3 | 2026-10-30 | 0 | CVE-2026-118527 |
 | PHP Group | PHP | 3 | 2026-10-26 | 1 | CVE-2026-109619 |
 | Arista | VeloCloud Orchestrator | 3 | 2026-10-23 | 0 | CVE-2026-114625 |
@@ -143,7 +144,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Secure Email Gateway | 2 | 2026-10-14 | 0 | CVE-2026-76519 |
 | Zammad GmbH | Zammad | 2 | 2026-10-02 | 0 | CVE-2026-102490 |
 | WSO2 | Multiple Products | 2 | 2026-09-24 | 1 | CVE-2026-5430 |
-| Check Point | Multiple Products | 2 | 2026-09-22 | 0 | CVE-2026-93616 |
 | Google | Pixel | 2 | 2026-09-16 | 0 | CVE-2026-58704 |
 | Microsoft | SQL Server | 2 | 2026-08-26 | 1 | CVE-2019-1068 |
 | TrueConf | Server | 2 | 2026-08-20 | 0 | CVE-2026-72530 |
@@ -240,6 +240,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| UnrealIRCd | UnrealIRCd | 1 | 2026-11-13 | 0 | CVE-2026-114713 |
 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 1 | 2026-11-10 | 0 | CVE-2026-116606 |
 | Barracuda Networks | Multiple Products | 1 | 2026-11-10 | 0 | CVE-2026-111560 |
 | Cisco | BroadWorks | 1 | 2026-11-10 | 0 | CVE-2026-20320 |
