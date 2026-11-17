@@ -762,6 +762,7 @@
   "modules/exploits/linux/http/bentoml_runner_server_rce_cve_2025_32375.rb": "2025-04-17T11:46:43.000Z",
   "modules/exploits/linux/http/beyondtrust_pra_rs_command_injection.rb": "2026-02-24T12:12:37.000Z",
   "modules/exploits/linux/http/beyondtrust_pra_rs_unauth_rce.rb": "2025-02-13T12:51:46.000Z",
+  "modules/exploits/linux/http/beyondtrust_rs_mrs_file_upload.rb": "2026-10-30T17:34:27.000Z",
   "modules/exploits/linux/http/bitbucket_git_cmd_injection.rb": "2022-09-19T22:28:17.000Z",
   "modules/exploits/linux/http/bludit_upload_images_exec.rb": "2019-11-05T14:57:15.000Z",
   "modules/exploits/linux/http/cacti_unauthenticated_cmd_injection.rb": "2022-12-22T15:55:45.000Z",
