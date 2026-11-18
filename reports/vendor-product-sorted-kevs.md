@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-17T23:10:44Z
+Generated: 2026-11-18T14:23:39Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -240,6 +240,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Perforce | Puppet Enterprise | 1 | 2026-11-17 | 0 | CVE-2026-115731 |
 | UnrealIRCd | UnrealIRCd | 1 | 2026-11-13 | 0 | CVE-2026-114713 |
 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 1 | 2026-11-10 | 0 | CVE-2026-116606 |
 | Barracuda Networks | Multiple Products | 1 | 2026-11-10 | 0 | CVE-2026-111560 |

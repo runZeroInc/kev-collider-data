@@ -773,6 +773,7 @@
   "modules/exploits/linux/http/cfme_manageiq_evm_upload_exec.rb": "2013-12-09T18:18:12.000Z",
   "modules/exploits/linux/http/chamilo_bigupload_webshell.rb": "2024-11-11T19:33:34.000Z",
   "modules/exploits/linux/http/chamilo_unauth_rce_cve_2023_34960.rb": "2023-07-28T20:14:44.000Z",
+  "modules/exploits/linux/http/changedetection_rce_cve_2024_32651.rb": "2026-08-23T01:35:10.000Z",
   "modules/exploits/linux/http/chaos_rat_xss_to_rce.rb": "2024-04-17T21:01:03.000Z",
   "modules/exploits/linux/http/cisco_asax_sfr_rce.rb": "2022-08-19T19:29:37.000Z",
   "modules/exploits/linux/http/cisco_firepower_useradd.rb": "2017-01-06T23:05:25.000Z",
