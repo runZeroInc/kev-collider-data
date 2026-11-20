@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-18T14:23:39Z
+Generated: 2026-11-20T20:58:38Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -24,9 +24,9 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Samsung | Mobile Devices | 13 | 2025-11-10 | 0 | CVE-2025-21042 |
 | Cisco | IOS | 12 | 2026-07-13 | 0 | CVE-2008-4128 |
 | Oracle | WebLogic Server | 12 | 2026-06-01 | 2 | CVE-2024-21182 |
+| SAP | NetWeaver | 11 | 2026-11-20 | 2 | CVE-2025-42884 |
 | Qualcomm | Multiple Chipsets | 11 | 2026-03-03 | 0 | CVE-2026-21385 |
 | Apple | iOS, iPadOS, and macOS | 11 | 2025-08-21 | 0 | CVE-2025-43300 |
-| SAP | NetWeaver | 10 | 2025-05-15 | 2 | CVE-2025-42999 |
 | Fortinet | FortiOS | 9 | 2026-07-27 | 6 | CVE-2025-68686 |
 | VMware | vCenter Server | 9 | 2024-11-20 | 3 | CVE-2024-38813 |
 | Google | Chromium | 8 | 2026-11-10 | 0 | CVE-2026-125350 |
@@ -63,6 +63,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zyxel | Multiple Firewalls | 5 | 2024-12-03 | 1 | CVE-2024-11667 |
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
+| BerriAI | LiteLLM | 4 | 2026-11-18 | 0 | CVE-2026-40217 |
 | ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
 | JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
 | PaperCut | NG/MF | 4 | 2026-08-31 | 1 | CVE-2026-82078 |
@@ -98,7 +99,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Arista | VeloCloud Orchestrator | 3 | 2026-10-23 | 0 | CVE-2026-114625 |
 | WordPress | Core | 3 | 2026-09-25 | 0 | CVE-2026-87902 |
 | Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
-| BerriAI | LiteLLM | 3 | 2026-09-02 | 0 | CVE-2026-59822 |
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
 | Ubiquiti | UniFi OS | 3 | 2026-06-23 | 0 | CVE-2026-34910 |
 | Drupal | Core | 3 | 2026-05-22 | 1 | CVE-2026-9082 |
@@ -138,6 +138,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | IBM | Data Risk Manager | 3 | 2021-11-03 | 0 | CVE-2020-4430 |
 | SaltStack | Salt | 3 | 2021-11-03 | 0 | CVE-2020-16846 |
 | SonicWall | SonicWall Email Security | 3 | 2021-11-03 | 3 | CVE-2021-20023 |
+| Broadcom | VMware vCenter | 2 | 2026-11-20 | 1 | CVE-2026-123890 |
 | IBM | Aspera Faspex | 2 | 2026-11-09 | 1 | CVE-2026-123218 |
 | GitLab | Community Edition and Enterprise Edition | 2 | 2026-10-29 | 0 | CVE-2026-97229 |
 | Ahsay | AhsayCBS | 2 | 2026-10-14 | 0 | CVE-2026-105134 |
@@ -240,6 +241,11 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Apache | Roller | 1 | 2026-11-20 | 0 | CVE-2026-129448 |
+| Cisco | Expressway Series | 1 | 2026-11-20 | 0 | CVE-2026-76466 |
+| Apache | Axis | 1 | 2026-11-18 | 0 | CVE-2026-90436 |
+| Synology | DiskStation Manager (DSM) | 1 | 2026-11-18 | 0 | CVE-2024-10441 |
+| Vanderbilt University | Research Electronic Data Capture (REDCap) | 1 | 2026-11-18 | 0 | CVE-2026-90817 |
 | Perforce | Puppet Enterprise | 1 | 2026-11-17 | 0 | CVE-2026-115731 |
 | UnrealIRCd | UnrealIRCd | 1 | 2026-11-13 | 0 | CVE-2026-114713 |
 | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 1 | 2026-11-10 | 0 | CVE-2026-116606 |
@@ -278,7 +284,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Gitea | Gitea | 1 | 2026-08-25 | 0 | CVE-2026-60004 |
 | Oracle | HTTP Server and Oracle Weblogic Server Proxy Plug-in | 1 | 2026-08-24 | 0 | CVE-2026-21962 |
 | MLflow | MLflow | 1 | 2026-08-19 | 0 | CVE-2026-64849 |
-| Broadcom | VMware vCenter | 1 | 2026-08-18 | 1 | CVE-2026-59310 |
 | Microsoft | Internet Key Exchange (IKE) Service Extensions | 1 | 2026-08-18 | 0 | CVE-2026-33824 |
 | Ray-Project | Ray | 1 | 2026-08-17 | 0 | CVE-2025-62593 |
 | Microsoft | Windows Ancillary Function Driver for WinSock | 1 | 2026-08-11 | 0 | CVE-2026-68820 |
