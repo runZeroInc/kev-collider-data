@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-20T20:58:38Z
+Generated: 2026-11-21T02:39:43Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
