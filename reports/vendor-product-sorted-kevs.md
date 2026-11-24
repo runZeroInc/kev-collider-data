@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-24T18:04:58Z
+Generated: 2026-11-24T22:29:25Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -63,6 +63,7 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Zyxel | Multiple Firewalls | 5 | 2024-12-03 | 1 | CVE-2024-11667 |
 | Mozilla | Firefox | 5 | 2024-10-15 | 1 | CVE-2024-9680 |
 | Cisco | Small Business RV160, RV260, RV340, and RV345 Series Routers | 5 | 2022-03-03 | 0 | CVE-2022-20708 |
+| Drupal | Core | 4 | 2026-11-24 | 1 | CVE-2026-132165 |
 | BerriAI | LiteLLM | 4 | 2026-11-18 | 0 | CVE-2026-40217 |
 | ConnectWise | ScreenConnect | 4 | 2026-09-11 | 2 | CVE-2026-84869 |
 | JFrog | Artifactory | 4 | 2026-09-11 | 0 | CVE-2026-42018 |
@@ -101,7 +102,6 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Cisco | Identity Services Engine | 3 | 2026-09-16 | 0 | CVE-2026-76460 |
 | Cisco | Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) | 3 | 2026-08-11 | 0 | CVE-2026-20349 |
 | Ubiquiti | UniFi OS | 3 | 2026-06-23 | 0 | CVE-2026-34910 |
-| Drupal | Core | 3 | 2026-05-22 | 1 | CVE-2026-9082 |
 | Apache | ActiveMQ | 3 | 2026-04-16 | 1 | CVE-2026-34197 |
 | Fortinet | FortiClient EMS | 3 | 2026-04-13 | 1 | CVE-2026-21643 |
 | F5 | BIG-IP | 3 | 2026-03-27 | 2 | CVE-2025-53521 |
@@ -241,6 +241,8 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| Idunno | AntiCsrf | 1 | 2026-11-24 | 0 | CVE-2026-131914 |
+| Optimizely | Web Experimentation | 1 | 2026-11-24 | 0 | CVE-2026-132224 |
 | N-able | MailAssure | 1 | 2026-11-23 | 0 | CVE-2026-134624 |
 | Project MONAI | MONAI Label | 1 | 2026-11-23 | 0 | CVE-2026-133968 |
 | Apache | Roller | 1 | 2026-11-20 | 0 | CVE-2026-129448 |
