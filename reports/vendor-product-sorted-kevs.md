@@ -1,6 +1,6 @@
 # KEV Vulnerabilities by Vendor and Product
 
-Generated: 2026-11-21T02:39:43Z
+Generated: 2026-11-24T00:59:58Z
 
 One row per vendor/product pair, with product names normalized via `bin/product-aliases.json`. Sorted by KEV count (highest first), then by most recent date added.
 
@@ -241,10 +241,12 @@ One row per vendor/product pair, with product names normalized via `bin/product-
 | Trend Micro | Apex One, Apex One as a Service, and Worry-Free Business Security | 2 | 2021-11-03 | 0 | CVE-2021-36742 |
 | Unraid | Unraid | 2 | 2021-11-03 | 0 | CVE-2020-5849 |
 | vBulletin | vBulletin | 2 | 2021-11-03 | 0 | CVE-2020-17496 |
+| N-able | MailAssure | 1 | 2026-11-23 | 0 | CVE-2026-134624 |
+| Project MONAI | MONAI Label | 1 | 2026-11-23 | 0 | CVE-2026-133968 |
 | Apache | Roller | 1 | 2026-11-20 | 0 | CVE-2026-129448 |
 | Cisco | Expressway Series | 1 | 2026-11-20 | 0 | CVE-2026-76466 |
 | Apache | Axis | 1 | 2026-11-18 | 0 | CVE-2026-90436 |
-| Synology | DiskStation Manager (DSM) | 1 | 2026-11-18 | 0 | CVE-2024-10441 |
+| Synology | DiskStation Manager (DSM) | 1 | 2026-11-18 | 1 | CVE-2024-10441 |
 | Vanderbilt University | Research Electronic Data Capture (REDCap) | 1 | 2026-11-18 | 0 | CVE-2026-90817 |
 | Perforce | Puppet Enterprise | 1 | 2026-11-17 | 0 | CVE-2026-115731 |
 | UnrealIRCd | UnrealIRCd | 1 | 2026-11-13 | 0 | CVE-2026-114713 |
